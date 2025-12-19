@@ -61,20 +61,29 @@ class MarkerPlotter(Node):
             #self.ax.text(f"RB {rb.rigid_body_name}", fontsize=9)
         plt.draw()
         plt.pause(0.001)
-    def shutdown(self):
-        self.get_logger().info('Shutting down...')
-        plt.close(self.fig)
+    
+    def is_fig_open(self):
+        """Check if the matplotlib figure window is still open"""
+        return plt.fignum_exists(self.fig.number)
 
 def main():
     rclpy.init()
     node = MarkerPlotter()
     try:
-        rclpy.spin(node)
+        # Non-blocking loop: process ROS2 messages and matplotlib events
+        while rclpy.ok() and node.is_fig_open():
+            # Process ROS2 callbacks (non-blocking with timeout)
+            rclpy.spin_once(node, timeout_sec=0.01)
+            # Process matplotlib GUI events
+            plt.pause(0.01)
     except KeyboardInterrupt:
-        pass
-    plt.close('all')
-    node.destroy_node()
-    rclpy.shutdown()
+        node.get_logger().info('Keyboard interrupt received')
+    finally:
+        # Ensure matplotlib GUI closes gracefully
+        plt.ioff()  # Turn off interactive mode
+        plt.close('all')  # Close all figures
+        node.destroy_node()
+        rclpy.shutdown()
 
 if __name__ == '__main__':
     main()
