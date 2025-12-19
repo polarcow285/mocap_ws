@@ -100,4 +100,4 @@ Launch driver node (connects to Motive server): make sure Motive multicast is en
 To launch visualization step, in terminal 2:
 
 ```python3 ~/mocap_ws/plot_marks.py```
-You may need to `conda install scipy``` when running visualization script.
+You may need to `conda install scipy` when running visualization script.
