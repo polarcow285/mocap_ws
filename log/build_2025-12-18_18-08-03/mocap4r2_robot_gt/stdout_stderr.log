@@ -1,0 +1,148 @@
+[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+[0m
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.7.3 (/home/nl455/miniconda3/envs/ros_env/share/ament_cmake/cmake)
+-- Found Python3: /home/nl455/miniconda3/envs/ros_env/bin/python3 (found version "3.12.12") found components: Interpreter
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 29.5.3 (/home/nl455/miniconda3/envs/ros_env/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.9.5 (/home/nl455/miniconda3/envs/ros_env/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.9.5 (/home/nl455/miniconda3/envs/ros_env/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.8.2 (/home/nl455/miniconda3/envs/ros_env/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 9.3.3 (/home/nl455/miniconda3/envs/ros_env/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /home/nl455/miniconda3/envs/ros_env/lib/libcrypto.so (found version "3.6.0")
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_components: 29.5.3 (/home/nl455/miniconda3/envs/ros_env/share/rclcpp_components/cmake)
+-- Found mocap4r2_msgs: 0.2.0 (/home/nl455/mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake)
+-- Found mocap4r2_robot_gt_msgs: 0.0.7 (/home/nl455/mocap_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/cmake)
+-- Found tf2_ros: 0.41.2 (/home/nl455/miniconda3/envs/ros_env/share/tf2_ros/cmake)
+-- Found tf2_geometry_msgs: 0.41.2 (/home/nl455/miniconda3/envs/ros_env/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.4.0 (/home/nl455/miniconda3/envs/ros_env/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0")
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0mCMake Deprecation Warning at /home/nl455/miniconda3/envs/ros_env/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+  ament_target_dependencies() is deprecated.  Use target_link_libraries()
+  with modern CMake targets instead.  Try replacing this call with:
+
+    target_link_libraries(gt_component PUBLIC
+      ${geometry_msgs_TARGETS}
+      ${mocap4r2_msgs_TARGETS}
+      ${mocap4r2_robot_gt_msgs_TARGETS}
+      rclcpp::rclcpp
+      rclcpp_components::component
+      rclcpp_components::component_manager
+      tf2_geometry_msgs::tf2_geometry_msgs
+      tf2_ros::static_transform_broadcaster_node
+      tf2_ros::tf2_ros
+    )
+
+Call Stack (most recent call first):
+  CMakeLists.txt:33 (ament_target_dependencies)
+
+[0m
+[0mCMake Deprecation Warning at /home/nl455/miniconda3/envs/ros_env/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+  ament_target_dependencies() is deprecated.  Use target_link_libraries()
+  with modern CMake targets instead.  Try replacing this call with:
+
+    target_link_libraries(gt_component PUBLIC
+      ${geometry_msgs_TARGETS}
+      ${mocap4r2_msgs_TARGETS}
+      ${mocap4r2_robot_gt_msgs_TARGETS}
+      rclcpp::rclcpp
+      rclcpp_components::component
+      rclcpp_components::component_manager
+      tf2_geometry_msgs::tf2_geometry_msgs
+      tf2_ros::static_transform_broadcaster_node
+      tf2_ros::tf2_ros
+    )
+
+Call Stack (most recent call first):
+  CMakeLists.txt:37 (ament_target_dependencies)
+
+[0m
+[0mCMake Deprecation Warning at /home/nl455/miniconda3/envs/ros_env/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+  ament_target_dependencies() is deprecated.  Use target_link_libraries()
+  with modern CMake targets instead.  Try replacing this call with:
+
+    target_link_libraries(set_gt_component PUBLIC
+      ${geometry_msgs_TARGETS}
+      ${mocap4r2_msgs_TARGETS}
+      ${mocap4r2_robot_gt_msgs_TARGETS}
+      rclcpp::rclcpp
+      rclcpp_components::component
+      rclcpp_components::component_manager
+      tf2_geometry_msgs::tf2_geometry_msgs
+      tf2_ros::static_transform_broadcaster_node
+      tf2_ros::tf2_ros
+    )
+
+Call Stack (most recent call first):
+  CMakeLists.txt:41 (ament_target_dependencies)
+
+[0m
+[0mCMake Deprecation Warning at /home/nl455/miniconda3/envs/ros_env/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+  ament_target_dependencies() is deprecated.  Use target_link_libraries()
+  with modern CMake targets instead.  Try replacing this call with:
+
+    target_link_libraries(set_gt_cli PUBLIC
+      ${geometry_msgs_TARGETS}
+      ${mocap4r2_msgs_TARGETS}
+      ${mocap4r2_robot_gt_msgs_TARGETS}
+      rclcpp::rclcpp
+      rclcpp_components::component
+      rclcpp_components::component_manager
+      tf2_geometry_msgs::tf2_geometry_msgs
+      tf2_ros::static_transform_broadcaster_node
+      tf2_ros::tf2_ros
+    )
+
+Call Stack (most recent call first):
+  CMakeLists.txt:45 (ament_target_dependencies)
+
+[0m
+-- Found ament_lint_auto: 0.19.2 (/home/nl455/miniconda3/envs/ros_env/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/nl455/mocap_ws/src/mocap4r2/mocap4r2_robot_gt/mocap4r2_robot_gt/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (0.9s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/nl455/mocap_ws/build/mocap4r2_robot_gt
+[ 12%] [32mBuilding CXX object CMakeFiles/gt_component.dir/src/mocap4r2_robot_gt/gt_component.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/set_gt_component.dir/src/mocap4r2_robot_gt/set_gt_component.cpp.o[0m
+[ 37%] [1m[32mLinking CXX shared library libset_gt_component.so[0m
+/usr/bin/ld: cannot find -llttng-ust: No such file or directory
+/usr/bin/ld: cannot find -llttng-ust-common: No such file or directory
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/set_gt_component.dir/build.make:240: libset_gt_component.so] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:226: CMakeFiles/set_gt_component.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[ 50%] [1m[32mLinking CXX shared library libgt_component.so[0m
+/usr/bin/ld: cannot find -llttng-ust: No such file or directory
+/usr/bin/ld: cannot find -llttng-ust-common: No such file or directory
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/gt_component.dir/build.make:240: libgt_component.so] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:162: CMakeFiles/gt_component.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

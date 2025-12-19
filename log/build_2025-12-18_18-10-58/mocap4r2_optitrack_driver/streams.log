@@ -1,0 +1,142 @@
+[0.006s] Invoking command in '/home/nl455/mocap_ws/build/mocap4r2_optitrack_driver': AMENT_PREFIX_PATH=/home/nl455/mocap_ws/install/mocap4r2_control:/home/nl455/mocap_ws/install/mocap4r2_msgs:/home/nl455/mocap_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nl455/mocap_ws/install/mocap4r2_control:/home/nl455/mocap_ws/install/mocap4r2_msgs:/home/nl455/mocap_ws/install/mocap4r2_control_msgs:/home/nl455/miniconda3/envs/ros_env CONDA_PROMPT_MODIFIER=(ros_env) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nl455/mocap_ws/install/mocap4r2_control/lib:/home/nl455/mocap_ws/install/mocap4r2_msgs/lib:/home/nl455/mocap_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nl455/mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages:/home/nl455/mocap_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /home/nl455/miniconda3/envs/ros_env/bin/cmake /home/nl455/mocap_ws/src/mocap4ros2_optitrack/mocap4r2_optitrack_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nl455/mocap_ws/install/mocap4r2_optitrack_driver
+[0.011s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.011s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.011s]   CMake.
+[0.011s] 
+[0.011s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.011s]   to tell CMake that the project requires at least <min> but has been updated
+[0.011s]   to work with policies introduced by <max> or earlier.
+[0.011s] 
+[0.011s] [0m
+[0.034s] -- The C compiler identification is GNU 13.3.0
+[0.065s] -- The CXX compiler identification is GNU 13.3.0
+[0.069s] -- Detecting C compiler ABI info
+[0.101s] -- Detecting C compiler ABI info - done
+[0.110s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.110s] -- Detecting C compile features
+[0.110s] -- Detecting C compile features - done
+[0.116s] -- Detecting CXX compiler ABI info
+[0.154s] -- Detecting CXX compiler ABI info - done
+[0.162s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.162s] -- Detecting CXX compile features
+[0.162s] -- Detecting CXX compile features - done
+[0.168s] -- Found ament_cmake: 2.7.3 (/home/nl455/miniconda3/envs/ros_env/share/ament_cmake/cmake)
+[0.231s] -- Found Python3: /home/nl455/miniconda3/envs/ros_env/bin/python3 (found version "3.12.12") found components: Interpreter
+[0.268s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.298s] -- Found rclcpp: 29.5.3 (/home/nl455/miniconda3/envs/ros_env/share/rclcpp/cmake)
+[0.326s] -- Found rosidl_generator_c: 4.9.5 (/home/nl455/miniconda3/envs/ros_env/share/rosidl_generator_c/cmake)
+[0.336s] -- Found rosidl_generator_cpp: 4.9.5 (/home/nl455/miniconda3/envs/ros_env/share/rosidl_generator_cpp/cmake)
+[0.347s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.361s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.414s] -- Found rmw_implementation_cmake: 7.8.2 (/home/nl455/miniconda3/envs/ros_env/share/rmw_implementation_cmake/cmake)
+[0.416s] -- Found rmw_fastrtps_cpp: 9.3.3 (/home/nl455/miniconda3/envs/ros_env/share/rmw_fastrtps_cpp/cmake)
+[0.567s] -- Found OpenSSL: /home/nl455/miniconda3/envs/ros_env/lib/libcrypto.so (found version "3.6.0")
+[0.580s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.631s] -- Found rclcpp_lifecycle: 29.5.3 (/home/nl455/miniconda3/envs/ros_env/share/rclcpp_lifecycle/cmake)
+[0.654s] -- Found tf2: 0.41.2 (/home/nl455/miniconda3/envs/ros_env/share/tf2/cmake)
+[0.680s] -- Found tf2_ros: 0.41.2 (/home/nl455/miniconda3/envs/ros_env/share/tf2_ros/cmake)
+[0.761s] -- Found mocap4r2_msgs: 0.2.0 (/home/nl455/mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake)
+[0.776s] -- Found mocap4r2_control_msgs: 0.0.7 (/home/nl455/mocap_ws/install/mocap4r2_control_msgs/share/mocap4r2_control_msgs/cmake)
+[0.789s] -- Found mocap4r2_control: 0.0.7 (/home/nl455/mocap_ws/install/mocap4r2_control/share/mocap4r2_control/cmake)
+[0.792s] [0mCMake Deprecation Warning at /home/nl455/miniconda3/envs/ros_env/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+[0.792s]   ament_target_dependencies() is deprecated.  Use target_link_libraries()
+[0.792s]   with modern CMake targets instead.  Try replacing this call with:
+[0.792s] 
+[0.792s]     target_link_libraries(mocap4r2_optitrack_driver PUBLIC
+[0.792s]       ${mocap4r2_control_msgs_TARGETS}
+[0.792s]       ${mocap4r2_msgs_TARGETS}
+[0.792s]       rclcpp::rclcpp
+[0.792s]       rclcpp_lifecycle::rclcpp_lifecycle
+[0.792s]       tf2::tf2
+[0.792s]       tf2_ros::static_transform_broadcaster_node
+[0.792s]       tf2_ros::tf2_ros
+[0.792s]     )
+[0.792s] 
+[0.792s] Call Stack (most recent call first):
+[0.792s]   CMakeLists.txt:47 (ament_target_dependencies)
+[0.792s] 
+[0.792s] [0m
+[0.795s] [0mCMake Deprecation Warning at /home/nl455/miniconda3/envs/ros_env/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+[0.795s]   ament_target_dependencies() is deprecated.  Use target_link_libraries()
+[0.795s]   with modern CMake targets instead.  Try replacing this call with:
+[0.795s] 
+[0.795s]     target_link_libraries(mocap4r2_optitrack_driver_main PUBLIC
+[0.795s]       ${mocap4r2_control_msgs_TARGETS}
+[0.795s]       ${mocap4r2_msgs_TARGETS}
+[0.795s]       rclcpp::rclcpp
+[0.795s]       rclcpp_lifecycle::rclcpp_lifecycle
+[0.795s]       tf2::tf2
+[0.795s]       tf2_ros::static_transform_broadcaster_node
+[0.795s]       tf2_ros::tf2_ros
+[0.795s]     )
+[0.795s] 
+[0.795s] Call Stack (most recent call first):
+[0.795s]   CMakeLists.txt:54 (ament_target_dependencies)
+[0.795s] 
+[0.795s] [0m
+[0.797s] [0mCMake Deprecation Warning at /home/nl455/miniconda3/envs/ros_env/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+[0.797s]   ament_target_dependencies() is deprecated.  Use target_link_libraries()
+[0.797s]   with modern CMake targets instead.  Try replacing this call with:
+[0.798s] 
+[0.798s]     target_link_libraries(mocap4r2_optitrack_driver PUBLIC
+[0.798s]       ${mocap4r2_control_msgs_TARGETS}
+[0.798s]       ${mocap4r2_msgs_TARGETS}
+[0.798s]       rclcpp::rclcpp
+[0.798s]       rclcpp_lifecycle::rclcpp_lifecycle
+[0.798s]       tf2::tf2
+[0.798s]       tf2_ros::static_transform_broadcaster_node
+[0.798s]       tf2_ros::tf2_ros
+[0.798s]     )
+[0.798s] 
+[0.798s] Call Stack (most recent call first):
+[0.798s]   CMakeLists.txt:60 (ament_target_dependencies)
+[0.798s] 
+[0.798s] [0m
+[0.802s] -- Found ament_cmake_copyright: 0.19.2 (/home/nl455/miniconda3/envs/ros_env/share/ament_cmake_copyright/cmake)
+[0.804s] -- Found ament_cmake_cppcheck: 0.19.2 (/home/nl455/miniconda3/envs/ros_env/share/ament_cmake_cppcheck/cmake)
+[0.806s] -- Found ament_cmake_cpplint: 0.19.2 (/home/nl455/miniconda3/envs/ros_env/share/ament_cmake_cpplint/cmake)
+[0.808s] -- Found ament_cmake_lint_cmake: 0.19.2 (/home/nl455/miniconda3/envs/ros_env/share/ament_cmake_lint_cmake/cmake)
+[0.811s] -- Found ament_cmake_xmllint: 0.19.2 (/home/nl455/miniconda3/envs/ros_env/share/ament_cmake_xmllint/cmake)
+[0.813s] -- Found ament_cmake_uncrustify: 0.19.2 (/home/nl455/miniconda3/envs/ros_env/share/ament_cmake_uncrustify/cmake)
+[0.816s] -- Found ament_cmake_gtest: 2.7.3 (/home/nl455/miniconda3/envs/ros_env/share/ament_cmake_gtest/cmake)
+[0.866s] -- Configuring done (0.9s)
+[0.885s] -- Generating done (0.0s)
+[0.903s] -- Build files have been written to: /home/nl455/mocap_ws/build/mocap4r2_optitrack_driver
+[0.910s] Invoked command in '/home/nl455/mocap_ws/build/mocap4r2_optitrack_driver' returned '0': AMENT_PREFIX_PATH=/home/nl455/mocap_ws/install/mocap4r2_control:/home/nl455/mocap_ws/install/mocap4r2_msgs:/home/nl455/mocap_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nl455/mocap_ws/install/mocap4r2_control:/home/nl455/mocap_ws/install/mocap4r2_msgs:/home/nl455/mocap_ws/install/mocap4r2_control_msgs:/home/nl455/miniconda3/envs/ros_env CONDA_PROMPT_MODIFIER=(ros_env) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nl455/mocap_ws/install/mocap4r2_control/lib:/home/nl455/mocap_ws/install/mocap4r2_msgs/lib:/home/nl455/mocap_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nl455/mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages:/home/nl455/mocap_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /home/nl455/miniconda3/envs/ros_env/bin/cmake /home/nl455/mocap_ws/src/mocap4ros2_optitrack/mocap4r2_optitrack_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nl455/mocap_ws/install/mocap4r2_optitrack_driver
+[0.911s] Invoking command in '/home/nl455/mocap_ws/build/mocap4r2_optitrack_driver': AMENT_PREFIX_PATH=/home/nl455/mocap_ws/install/mocap4r2_control:/home/nl455/mocap_ws/install/mocap4r2_msgs:/home/nl455/mocap_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nl455/mocap_ws/install/mocap4r2_control:/home/nl455/mocap_ws/install/mocap4r2_msgs:/home/nl455/mocap_ws/install/mocap4r2_control_msgs:/home/nl455/miniconda3/envs/ros_env CONDA_PROMPT_MODIFIER=(ros_env) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nl455/mocap_ws/install/mocap4r2_control/lib:/home/nl455/mocap_ws/install/mocap4r2_msgs/lib:/home/nl455/mocap_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nl455/mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages:/home/nl455/mocap_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /home/nl455/miniconda3/envs/ros_env/bin/cmake --build /home/nl455/mocap_ws/build/mocap4r2_optitrack_driver -- -j32 -l32
+[0.930s] [ 25%] [32mBuilding CXX object CMakeFiles/mocap4r2_optitrack_driver.dir/src/mocap4r2_optitrack_driver/mocap4r2_optitrack_driver.cpp.o[0m
+[4.213s] [ 50%] [1m[32mLinking CXX static library libmocap4r2_optitrack_driver.a[0m
+[4.241s] [ 50%] Built target mocap4r2_optitrack_driver
+[4.249s] [ 75%] [32mBuilding CXX object CMakeFiles/mocap4r2_optitrack_driver_main.dir/src/mocap4r2_optitrack_driver_main.cpp.o[0m
+[6.037s] [100%] [1m[32mLinking CXX executable mocap4r2_optitrack_driver_main[0m
+[6.214s] [100%] Built target mocap4r2_optitrack_driver_main
+[6.218s] Invoked command in '/home/nl455/mocap_ws/build/mocap4r2_optitrack_driver' returned '0': AMENT_PREFIX_PATH=/home/nl455/mocap_ws/install/mocap4r2_control:/home/nl455/mocap_ws/install/mocap4r2_msgs:/home/nl455/mocap_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nl455/mocap_ws/install/mocap4r2_control:/home/nl455/mocap_ws/install/mocap4r2_msgs:/home/nl455/mocap_ws/install/mocap4r2_control_msgs:/home/nl455/miniconda3/envs/ros_env CONDA_PROMPT_MODIFIER=(ros_env) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nl455/mocap_ws/install/mocap4r2_control/lib:/home/nl455/mocap_ws/install/mocap4r2_msgs/lib:/home/nl455/mocap_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nl455/mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages:/home/nl455/mocap_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /home/nl455/miniconda3/envs/ros_env/bin/cmake --build /home/nl455/mocap_ws/build/mocap4r2_optitrack_driver -- -j32 -l32
+[6.218s] Invoking command in '/home/nl455/mocap_ws/build/mocap4r2_optitrack_driver': AMENT_PREFIX_PATH=/home/nl455/mocap_ws/install/mocap4r2_control:/home/nl455/mocap_ws/install/mocap4r2_msgs:/home/nl455/mocap_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nl455/mocap_ws/install/mocap4r2_control:/home/nl455/mocap_ws/install/mocap4r2_msgs:/home/nl455/mocap_ws/install/mocap4r2_control_msgs:/home/nl455/miniconda3/envs/ros_env CONDA_PROMPT_MODIFIER=(ros_env) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nl455/mocap_ws/install/mocap4r2_control/lib:/home/nl455/mocap_ws/install/mocap4r2_msgs/lib:/home/nl455/mocap_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nl455/mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages:/home/nl455/mocap_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /home/nl455/miniconda3/envs/ros_env/bin/cmake --install /home/nl455/mocap_ws/build/mocap4r2_optitrack_driver
+[6.221s] -- Install configuration: ""
+[6.221s] -- Execute custom install script
+[6.221s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_optitrack_driver/include//mocap4r2_optitrack_driver/mocap4r2_optitrack_driver.hpp
+[6.224s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_optitrack_driver/share/mocap4r2_optitrack_driver/launch/optitrack2.launch.py
+[6.226s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_optitrack_driver/share/mocap4r2_optitrack_driver/config/mocap4r2_optitrack_driver_params.yaml
+[6.229s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_optitrack_driver/lib/mocap4r2_optitrack_driver/mocap4r2_optitrack_driver_main
+[6.231s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_optitrack_driver/lib/libmocap4r2_optitrack_driver.a
+[6.234s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_optitrack_driver/share/mocap4r2_optitrack_driver/environment/library_path.sh
+[6.237s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_optitrack_driver/share/mocap4r2_optitrack_driver/environment/library_path.dsv
+[6.240s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_optitrack_driver/share/ament_index/resource_index/package_run_dependencies/mocap4r2_optitrack_driver
+[6.243s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_optitrack_driver/share/ament_index/resource_index/parent_prefix_path/mocap4r2_optitrack_driver
+[6.245s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_optitrack_driver/share/mocap4r2_optitrack_driver/environment/ament_prefix_path.sh
+[6.248s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_optitrack_driver/share/mocap4r2_optitrack_driver/environment/ament_prefix_path.dsv
+[6.250s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_optitrack_driver/share/mocap4r2_optitrack_driver/environment/path.sh
+[6.253s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_optitrack_driver/share/mocap4r2_optitrack_driver/environment/path.dsv
+[6.255s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_optitrack_driver/share/mocap4r2_optitrack_driver/local_setup.bash
+[6.258s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_optitrack_driver/share/mocap4r2_optitrack_driver/local_setup.sh
+[6.260s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_optitrack_driver/share/mocap4r2_optitrack_driver/local_setup.zsh
+[6.263s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_optitrack_driver/share/mocap4r2_optitrack_driver/local_setup.dsv
+[6.265s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_optitrack_driver/share/mocap4r2_optitrack_driver/package.dsv
+[6.268s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_optitrack_driver/share/ament_index/resource_index/packages/mocap4r2_optitrack_driver
+[6.270s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_optitrack_driver/share/mocap4r2_optitrack_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.273s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_optitrack_driver/share/mocap4r2_optitrack_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[6.275s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_optitrack_driver/share/mocap4r2_optitrack_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.278s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_optitrack_driver/share/mocap4r2_optitrack_driver/cmake/mocap4r2_optitrack_driverConfig.cmake
+[6.280s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_optitrack_driver/share/mocap4r2_optitrack_driver/cmake/mocap4r2_optitrack_driverConfig-version.cmake
+[6.283s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_optitrack_driver/share/mocap4r2_optitrack_driver/package.xml
+[6.286s] Invoked command in '/home/nl455/mocap_ws/build/mocap4r2_optitrack_driver' returned '0': AMENT_PREFIX_PATH=/home/nl455/mocap_ws/install/mocap4r2_control:/home/nl455/mocap_ws/install/mocap4r2_msgs:/home/nl455/mocap_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nl455/mocap_ws/install/mocap4r2_control:/home/nl455/mocap_ws/install/mocap4r2_msgs:/home/nl455/mocap_ws/install/mocap4r2_control_msgs:/home/nl455/miniconda3/envs/ros_env CONDA_PROMPT_MODIFIER=(ros_env) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nl455/mocap_ws/install/mocap4r2_control/lib:/home/nl455/mocap_ws/install/mocap4r2_msgs/lib:/home/nl455/mocap_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nl455/mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages:/home/nl455/mocap_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /home/nl455/miniconda3/envs/ros_env/bin/cmake --install /home/nl455/mocap_ws/build/mocap4r2_optitrack_driver

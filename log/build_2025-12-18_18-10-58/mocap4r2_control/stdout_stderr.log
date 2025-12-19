@@ -1,0 +1,42 @@
+[ 28%] Built target gtest_main
+[ 28%] Built target gtest
+[ 35%] [1m[32mLinking CXX shared library libmocap4r2_control.so[0m
+[ 57%] Built target mocap4r2_control
+[ 78%] [32mBuilding CXX object test/CMakeFiles/test_auxiliar.dir/test_auxiliar.cpp.o[0m
+[ 78%] [32mBuilding CXX object test/CMakeFiles/test_control.dir/test_control.cpp.o[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/auxiliar_main.dir/src/auxiliar_main.cpp.o[0m
+[ 85%] [1m[32mLinking CXX executable auxiliar_main[0m
+[ 85%] Built target auxiliar_main
+[ 92%] [1m[32mLinking CXX executable test_auxiliar[0m
+[ 92%] Built target test_auxiliar
+[100%] [1m[32mLinking CXX executable test_control[0m
+[100%] Built target test_control
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_control/include//mocap4r2_control/AuxiliarNode.hpp
+-- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_control/include//mocap4r2_control/ControlledLifecycleNode.hpp
+-- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_control/include//mocap4r2_control/ControllerNode.hpp
+-- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_control/share/mocap4r2_control/config/config_example.yaml
+-- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_control/share/mocap4r2_control/launch/auxiliar.launch.py
+-- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_control/lib/libmocap4r2_control.so
+-- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_control/lib/mocap4r2_control/auxiliar_main
+-- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_control/share/mocap4r2_control/environment/library_path.sh
+-- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_control/share/mocap4r2_control/environment/library_path.dsv
+-- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_control/share/ament_index/resource_index/package_run_dependencies/mocap4r2_control
+-- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_control/share/ament_index/resource_index/parent_prefix_path/mocap4r2_control
+-- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_control/share/mocap4r2_control/environment/ament_prefix_path.sh
+-- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_control/share/mocap4r2_control/environment/ament_prefix_path.dsv
+-- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_control/share/mocap4r2_control/environment/path.sh
+-- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_control/share/mocap4r2_control/environment/path.dsv
+-- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_control/share/mocap4r2_control/local_setup.bash
+-- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_control/share/mocap4r2_control/local_setup.sh
+-- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_control/share/mocap4r2_control/local_setup.zsh
+-- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_control/share/mocap4r2_control/local_setup.dsv
+-- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_control/share/mocap4r2_control/package.dsv
+-- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_control/share/ament_index/resource_index/packages/mocap4r2_control
+-- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_control/share/mocap4r2_control/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_control/share/mocap4r2_control/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_control/share/mocap4r2_control/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_control/share/mocap4r2_control/cmake/mocap4r2_controlConfig.cmake
+-- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_control/share/mocap4r2_control/cmake/mocap4r2_controlConfig-version.cmake
+-- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_control/share/mocap4r2_control/package.xml

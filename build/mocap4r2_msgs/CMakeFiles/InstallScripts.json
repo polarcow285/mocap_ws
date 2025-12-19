@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/nl455/mocap_ws/build/mocap4r2_msgs/cmake_install.cmake",
+		"/home/nl455/mocap_ws/build/mocap4r2_msgs/mocap4r2_msgs__py/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/nl455/mocap_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control_msgs" FILES "/home/nl455/miniconda3/envs/ros_env/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/mocap4r2_control_msgs/environment")

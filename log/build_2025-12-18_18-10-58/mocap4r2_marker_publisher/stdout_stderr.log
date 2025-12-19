@@ -1,0 +1,20 @@
+[ 50%] [1m[32mLinking CXX executable mocap4r2_marker_publisher[0m
+[100%] Built target mocap4r2_marker_publisher
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_publisher/lib/mocap4r2_marker_publisher/mocap4r2_marker_publisher
+-- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_publisher/share/ament_index/resource_index/package_run_dependencies/mocap4r2_marker_publisher
+-- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_publisher/share/ament_index/resource_index/parent_prefix_path/mocap4r2_marker_publisher
+-- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_publisher/share/mocap4r2_marker_publisher/environment/ament_prefix_path.sh
+-- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_publisher/share/mocap4r2_marker_publisher/environment/ament_prefix_path.dsv
+-- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_publisher/share/mocap4r2_marker_publisher/environment/path.sh
+-- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_publisher/share/mocap4r2_marker_publisher/environment/path.dsv
+-- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_publisher/share/mocap4r2_marker_publisher/local_setup.bash
+-- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_publisher/share/mocap4r2_marker_publisher/local_setup.sh
+-- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_publisher/share/mocap4r2_marker_publisher/local_setup.zsh
+-- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_publisher/share/mocap4r2_marker_publisher/local_setup.dsv
+-- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_publisher/share/mocap4r2_marker_publisher/package.dsv
+-- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_publisher/share/ament_index/resource_index/packages/mocap4r2_marker_publisher
+-- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_publisher/share/mocap4r2_marker_publisher/cmake/mocap4r2_marker_publisherConfig.cmake
+-- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_publisher/share/mocap4r2_marker_publisher/cmake/mocap4r2_marker_publisherConfig-version.cmake
+-- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_publisher/share/mocap4r2_marker_publisher/package.xml

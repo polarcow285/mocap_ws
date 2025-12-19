@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/nl455/mocap_ws/src/mocap4r2/mocap4r2_control/rqt_mocap4r2_control" FILES "/home/nl455/miniconda3/envs/ros_env/lib/python3.12/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/rqt_mocap4r2_control/environment")

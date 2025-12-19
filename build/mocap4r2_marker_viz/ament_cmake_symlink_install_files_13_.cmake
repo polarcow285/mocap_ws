@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/nl455/mocap_ws/src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz" FILES "/home/nl455/mocap_ws/src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz/package.xml" "DESTINATION" "share/mocap4r2_marker_viz")

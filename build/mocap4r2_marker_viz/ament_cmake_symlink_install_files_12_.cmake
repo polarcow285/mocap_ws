@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/nl455/mocap_ws/src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz" FILES "/home/nl455/mocap_ws/build/mocap4r2_marker_viz/ament_cmake_core/mocap4r2_marker_vizConfig.cmake" "/home/nl455/mocap_ws/build/mocap4r2_marker_viz/ament_cmake_core/mocap4r2_marker_vizConfig-version.cmake" "DESTINATION" "share/mocap4r2_marker_viz/cmake")

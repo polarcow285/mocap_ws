@@ -1,0 +1,82 @@
+[0.005s] Invoking command in '/home/nl455/mocap_ws/build/mocap4r2_marker_viz': AMENT_PREFIX_PATH=/home/nl455/mocap_ws/install/mocap4r2_msgs:/home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nl455/mocap_ws/install/mocap4r2_msgs:/home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs:/home/nl455/miniconda3/envs/ros_env CONDA_PROMPT_MODIFIER=(ros_env) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nl455/mocap_ws/install/mocap4r2_msgs/lib:/home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nl455/mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages:/home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages:${PYTHONPATH} /home/nl455/miniconda3/envs/ros_env/bin/cmake /home/nl455/mocap_ws/src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nl455/mocap_ws/install/mocap4r2_marker_viz
+[0.010s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.011s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.011s]   CMake.
+[0.011s] 
+[0.011s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.011s]   to tell CMake that the project requires at least <min> but has been updated
+[0.011s]   to work with policies introduced by <max> or earlier.
+[0.011s] 
+[0.011s] [0m
+[0.033s] -- The C compiler identification is GNU 13.3.0
+[0.063s] -- The CXX compiler identification is GNU 13.3.0
+[0.067s] -- Detecting C compiler ABI info
+[0.100s] -- Detecting C compiler ABI info - done
+[0.108s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.108s] -- Detecting C compile features
+[0.108s] -- Detecting C compile features - done
+[0.114s] -- Detecting CXX compiler ABI info
+[0.151s] -- Detecting CXX compiler ABI info - done
+[0.159s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.159s] -- Detecting CXX compile features
+[0.160s] -- Detecting CXX compile features - done
+[0.165s] -- Found ament_cmake: 2.7.3 (/home/nl455/miniconda3/envs/ros_env/share/ament_cmake/cmake)
+[0.228s] -- Found Python3: /home/nl455/miniconda3/envs/ros_env/bin/python3 (found version "3.12.12") found components: Interpreter
+[0.269s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.301s] -- Found rclcpp: 29.5.3 (/home/nl455/miniconda3/envs/ros_env/share/rclcpp/cmake)
+[0.330s] -- Found rosidl_generator_c: 4.9.5 (/home/nl455/miniconda3/envs/ros_env/share/rosidl_generator_c/cmake)
+[0.339s] -- Found rosidl_generator_cpp: 4.9.5 (/home/nl455/miniconda3/envs/ros_env/share/rosidl_generator_cpp/cmake)
+[0.351s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.364s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.419s] -- Found rmw_implementation_cmake: 7.8.2 (/home/nl455/miniconda3/envs/ros_env/share/rmw_implementation_cmake/cmake)
+[0.422s] -- Found rmw_fastrtps_cpp: 9.3.3 (/home/nl455/miniconda3/envs/ros_env/share/rmw_fastrtps_cpp/cmake)
+[0.567s] -- Found OpenSSL: /home/nl455/miniconda3/envs/ros_env/lib/libcrypto.so (found version "3.6.0")
+[0.579s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.630s] -- Found mocap4r2_marker_viz_srvs: 0.0.7 (/home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/cmake)
+[0.652s] -- Found mocap4r2_msgs: 0.2.0 (/home/nl455/mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake)
+[0.678s] -- Found visualization_msgs: 5.5.0 (/home/nl455/miniconda3/envs/ros_env/share/visualization_msgs/cmake)
+[0.714s] [0mCMake Deprecation Warning at /home/nl455/miniconda3/envs/ros_env/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+[0.714s]   ament_target_dependencies() is deprecated.  Use target_link_libraries()
+[0.714s]   with modern CMake targets instead.  Try replacing this call with:
+[0.714s] 
+[0.714s]     target_link_libraries(mocap4r2_marker_viz_NODE PUBLIC
+[0.714s]       ${geometry_msgs_TARGETS}
+[0.714s]       ${mocap4r2_marker_viz_srvs_TARGETS}
+[0.714s]       ${mocap4r2_msgs_TARGETS}
+[0.714s]       ${visualization_msgs_TARGETS}
+[0.714s]       rclcpp::rclcpp
+[0.714s]     )
+[0.714s] 
+[0.714s] Call Stack (most recent call first):
+[0.714s]   CMakeLists.txt:37 (ament_target_dependencies)
+[0.714s] 
+[0.714s] [0m
+[0.717s] -- Found ament_lint_auto: 0.19.2 (/home/nl455/miniconda3/envs/ros_env/share/ament_lint_auto/cmake)
+[0.786s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.786s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/nl455/mocap_ws/src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz/include>
+[0.786s] -- Configured cppcheck exclude dirs and/or files: 
+[0.786s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.786s] -- Configured cpplint exclude dirs and/or files: 
+[0.787s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.787s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.787s] -- Added test 'lint_cmake' to check CMake code style
+[0.787s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.788s] -- Added test 'uncrustify' to check C / C++ code style
+[0.788s] -- Configured uncrustify additional arguments: 
+[0.788s] -- Added test 'xmllint' to check XML markup files
+[0.789s] -- Configuring done (0.8s)
+[0.799s] -- Generating done (0.0s)
+[0.812s] -- Build files have been written to: /home/nl455/mocap_ws/build/mocap4r2_marker_viz
+[0.820s] Invoked command in '/home/nl455/mocap_ws/build/mocap4r2_marker_viz' returned '0': AMENT_PREFIX_PATH=/home/nl455/mocap_ws/install/mocap4r2_msgs:/home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nl455/mocap_ws/install/mocap4r2_msgs:/home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs:/home/nl455/miniconda3/envs/ros_env CONDA_PROMPT_MODIFIER=(ros_env) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nl455/mocap_ws/install/mocap4r2_msgs/lib:/home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nl455/mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages:/home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages:${PYTHONPATH} /home/nl455/miniconda3/envs/ros_env/bin/cmake /home/nl455/mocap_ws/src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nl455/mocap_ws/install/mocap4r2_marker_viz
+[0.821s] Invoking command in '/home/nl455/mocap_ws/build/mocap4r2_marker_viz': AMENT_PREFIX_PATH=/home/nl455/mocap_ws/install/mocap4r2_msgs:/home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nl455/mocap_ws/install/mocap4r2_msgs:/home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs:/home/nl455/miniconda3/envs/ros_env CONDA_PROMPT_MODIFIER=(ros_env) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nl455/mocap_ws/install/mocap4r2_msgs/lib:/home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nl455/mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages:/home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages:${PYTHONPATH} /home/nl455/miniconda3/envs/ros_env/bin/cmake --build /home/nl455/mocap_ws/build/mocap4r2_marker_viz -- -j32 -l32
+[0.840s] [ 25%] [32mBuilding CXX object CMakeFiles/mocap4r2_marker_viz_NODE.dir/src/mocap4r2_marker_viz_node.cpp.o[0m
+[6.135s] [ 50%] [1m[32mLinking CXX static library libmocap4r2_marker_viz_NODE.a[0m
+[6.199s] [ 50%] Built target mocap4r2_marker_viz_NODE
+[6.206s] [ 75%] [32mBuilding CXX object CMakeFiles/mocap4r2_marker_viz.dir/src/mocap4r2_marker_viz_main.cpp.o[0m
+[7.617s] [100%] [1m[32mLinking CXX executable mocap4r2_marker_viz[0m
+[7.666s] /usr/bin/ld: cannot find -llttng-ust: No such file or directory
+[7.666s] /usr/bin/ld: cannot find -llttng-ust-common: No such file or directory
+[7.718s] collect2: error: ld returned 1 exit status
+[7.719s] gmake[2]: *** [CMakeFiles/mocap4r2_marker_viz.dir/build.make:214: mocap4r2_marker_viz] Error 1
+[7.719s] gmake[1]: *** [CMakeFiles/Makefile2:156: CMakeFiles/mocap4r2_marker_viz.dir/all] Error 2
+[7.720s] gmake: *** [Makefile:146: all] Error 2

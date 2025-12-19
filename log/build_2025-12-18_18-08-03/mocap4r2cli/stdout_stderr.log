@@ -1,0 +1,34 @@
+/home/nl455/miniconda3/envs/ros_env/lib/python3.12/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+/home/nl455/miniconda3/envs/ros_env/lib/python3.12/site-packages/setuptools/dist.py:759: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+!!
+
+        ********************************************************************************
+        Please consider removing the following classifiers in favor of a SPDX license expression:
+
+        License :: OSI Approved :: Apache Software License
+
+        See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+        ********************************************************************************
+
+!!
+  self._finalize_license_expression()
+running develop
+running egg_info
+creating mocap4r2cli.egg-info
+writing mocap4r2cli.egg-info/PKG-INFO
+writing dependency_links to mocap4r2cli.egg-info/dependency_links.txt
+writing entry points to mocap4r2cli.egg-info/entry_points.txt
+writing requirements to mocap4r2cli.egg-info/requires.txt
+writing top-level names to mocap4r2cli.egg-info/top_level.txt
+writing manifest file 'mocap4r2cli.egg-info/SOURCES.txt'
+reading manifest file 'mocap4r2cli.egg-info/SOURCES.txt'
+writing manifest file 'mocap4r2cli.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/nl455/mocap_ws/install/mocap4r2cli/lib/python3.12/site-packages/mocap4r2cli.egg-link (link to .)
+
+Installed /home/nl455/mocap_ws/build/mocap4r2cli
+running symlink_data
+symbolically linking /home/nl455/mocap_ws/build/mocap4r2cli/package.xml -> /home/nl455/mocap_ws/install/mocap4r2cli/share/mocap4r2cli
+creating /home/nl455/mocap_ws/install/mocap4r2cli/share/ament_index/resource_index/packages
+symbolically linking /home/nl455/mocap_ws/build/mocap4r2cli/resource/mocap4r2cli -> /home/nl455/mocap_ws/install/mocap4r2cli/share/ament_index/resource_index/packages

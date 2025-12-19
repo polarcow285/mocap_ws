@@ -1,0 +1,114 @@
+[0.005s] Invoking command in '/home/nl455/mocap_ws/build/mocap4r2_dummy_driver': AMENT_PREFIX_PATH=/home/nl455/mocap_ws/install/mocap4r2_control:/home/nl455/mocap_ws/install/mocap4r2_msgs:/home/nl455/mocap_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nl455/mocap_ws/install/mocap4r2_control:/home/nl455/mocap_ws/install/mocap4r2_msgs:/home/nl455/mocap_ws/install/mocap4r2_control_msgs:/home/nl455/miniconda3/envs/ros_env CONDA_PROMPT_MODIFIER=(ros_env) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nl455/mocap_ws/install/mocap4r2_control/lib:/home/nl455/mocap_ws/install/mocap4r2_msgs/lib:/home/nl455/mocap_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nl455/mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages:/home/nl455/mocap_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /home/nl455/miniconda3/envs/ros_env/bin/cmake /home/nl455/mocap_ws/src/mocap4r2/mocap4r2_dummy_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nl455/mocap_ws/install/mocap4r2_dummy_driver
+[0.010s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.010s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.010s]   CMake.
+[0.010s] 
+[0.010s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.010s]   to tell CMake that the project requires at least <min> but has been updated
+[0.010s]   to work with policies introduced by <max> or earlier.
+[0.010s] 
+[0.010s] [0m
+[0.033s] -- The C compiler identification is GNU 13.3.0
+[0.065s] -- The CXX compiler identification is GNU 13.3.0
+[0.069s] -- Detecting C compiler ABI info
+[0.102s] -- Detecting C compiler ABI info - done
+[0.110s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.110s] -- Detecting C compile features
+[0.111s] -- Detecting C compile features - done
+[0.117s] -- Detecting CXX compiler ABI info
+[0.155s] -- Detecting CXX compiler ABI info - done
+[0.163s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.163s] -- Detecting CXX compile features
+[0.163s] -- Detecting CXX compile features - done
+[0.169s] -- Found ament_cmake: 2.7.3 (/home/nl455/miniconda3/envs/ros_env/share/ament_cmake/cmake)
+[0.232s] -- Found Python3: /home/nl455/miniconda3/envs/ros_env/bin/python3 (found version "3.12.12") found components: Interpreter
+[0.269s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.299s] -- Found rclcpp: 29.5.3 (/home/nl455/miniconda3/envs/ros_env/share/rclcpp/cmake)
+[0.327s] -- Found rosidl_generator_c: 4.9.5 (/home/nl455/miniconda3/envs/ros_env/share/rosidl_generator_c/cmake)
+[0.337s] -- Found rosidl_generator_cpp: 4.9.5 (/home/nl455/miniconda3/envs/ros_env/share/rosidl_generator_cpp/cmake)
+[0.348s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.364s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.418s] -- Found rmw_implementation_cmake: 7.8.2 (/home/nl455/miniconda3/envs/ros_env/share/rmw_implementation_cmake/cmake)
+[0.421s] -- Found rmw_fastrtps_cpp: 9.3.3 (/home/nl455/miniconda3/envs/ros_env/share/rmw_fastrtps_cpp/cmake)
+[0.571s] -- Found OpenSSL: /home/nl455/miniconda3/envs/ros_env/lib/libcrypto.so (found version "3.6.0")
+[0.583s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.633s] -- Found rclcpp_lifecycle: 29.5.3 (/home/nl455/miniconda3/envs/ros_env/share/rclcpp_lifecycle/cmake)
+[0.653s] -- Found mocap4r2_msgs: 0.2.0 (/home/nl455/mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake)
+[0.686s] -- Found mocap4r2_control: 0.0.7 (/home/nl455/mocap_ws/install/mocap4r2_control/share/mocap4r2_control/cmake)
+[0.701s] [0mCMake Deprecation Warning at /home/nl455/miniconda3/envs/ros_env/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+[0.701s]   ament_target_dependencies() is deprecated.  Use target_link_libraries()
+[0.701s]   with modern CMake targets instead.  Try replacing this call with:
+[0.701s] 
+[0.701s]     target_link_libraries(mocap4r2_dummy_driver PUBLIC
+[0.701s]       ${mocap4r2_msgs_TARGETS}
+[0.701s]       rclcpp::rclcpp
+[0.701s]       rclcpp_lifecycle::rclcpp_lifecycle
+[0.701s]     )
+[0.701s] 
+[0.701s] Call Stack (most recent call first):
+[0.701s]   CMakeLists.txt:33 (ament_target_dependencies)
+[0.701s] 
+[0.701s] [0m
+[0.704s] [0mCMake Deprecation Warning at /home/nl455/miniconda3/envs/ros_env/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+[0.704s]   ament_target_dependencies() is deprecated.  Use target_link_libraries()
+[0.704s]   with modern CMake targets instead.  Try replacing this call with:
+[0.704s] 
+[0.704s]     target_link_libraries(mocap4r2_dummy_driver_main PUBLIC
+[0.704s]       ${mocap4r2_msgs_TARGETS}
+[0.704s]       rclcpp::rclcpp
+[0.704s]       rclcpp_lifecycle::rclcpp_lifecycle
+[0.704s]     )
+[0.704s] 
+[0.704s] Call Stack (most recent call first):
+[0.704s]   CMakeLists.txt:38 (ament_target_dependencies)
+[0.704s] 
+[0.704s] [0m
+[0.708s] -- Found ament_lint_auto: 0.19.2 (/home/nl455/miniconda3/envs/ros_env/share/ament_lint_auto/cmake)
+[0.775s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.776s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.776s] -- Configured cppcheck include dirs: /home/nl455/mocap_ws/src/mocap4r2/mocap4r2_dummy_driver/include
+[0.776s] -- Configured cppcheck exclude dirs and/or files: 
+[0.776s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.776s] -- Configured cpplint exclude dirs and/or files: 
+[0.777s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.777s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.777s] -- Added test 'lint_cmake' to check CMake code style
+[0.777s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.778s] -- Added test 'uncrustify' to check C / C++ code style
+[0.778s] -- Configured uncrustify additional arguments: 
+[0.778s] -- Added test 'xmllint' to check XML markup files
+[0.781s] -- Configuring done (0.8s)
+[0.798s] -- Generating done (0.0s)
+[0.809s] -- Build files have been written to: /home/nl455/mocap_ws/build/mocap4r2_dummy_driver
+[0.816s] Invoked command in '/home/nl455/mocap_ws/build/mocap4r2_dummy_driver' returned '0': AMENT_PREFIX_PATH=/home/nl455/mocap_ws/install/mocap4r2_control:/home/nl455/mocap_ws/install/mocap4r2_msgs:/home/nl455/mocap_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nl455/mocap_ws/install/mocap4r2_control:/home/nl455/mocap_ws/install/mocap4r2_msgs:/home/nl455/mocap_ws/install/mocap4r2_control_msgs:/home/nl455/miniconda3/envs/ros_env CONDA_PROMPT_MODIFIER=(ros_env) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nl455/mocap_ws/install/mocap4r2_control/lib:/home/nl455/mocap_ws/install/mocap4r2_msgs/lib:/home/nl455/mocap_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nl455/mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages:/home/nl455/mocap_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /home/nl455/miniconda3/envs/ros_env/bin/cmake /home/nl455/mocap_ws/src/mocap4r2/mocap4r2_dummy_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nl455/mocap_ws/install/mocap4r2_dummy_driver
+[0.817s] Invoking command in '/home/nl455/mocap_ws/build/mocap4r2_dummy_driver': AMENT_PREFIX_PATH=/home/nl455/mocap_ws/install/mocap4r2_control:/home/nl455/mocap_ws/install/mocap4r2_msgs:/home/nl455/mocap_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nl455/mocap_ws/install/mocap4r2_control:/home/nl455/mocap_ws/install/mocap4r2_msgs:/home/nl455/mocap_ws/install/mocap4r2_control_msgs:/home/nl455/miniconda3/envs/ros_env CONDA_PROMPT_MODIFIER=(ros_env) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nl455/mocap_ws/install/mocap4r2_control/lib:/home/nl455/mocap_ws/install/mocap4r2_msgs/lib:/home/nl455/mocap_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nl455/mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages:/home/nl455/mocap_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /home/nl455/miniconda3/envs/ros_env/bin/cmake --build /home/nl455/mocap_ws/build/mocap4r2_dummy_driver -- -j32 -l32
+[0.834s] [ 25%] [32mBuilding CXX object CMakeFiles/mocap4r2_dummy_driver.dir/src/mocap4r2_dummy_driver/mocap4r2_dummy_driver.cpp.o[0m
+[3.954s] [ 50%] [1m[32mLinking CXX static library libmocap4r2_dummy_driver.a[0m
+[3.981s] [ 50%] Built target mocap4r2_dummy_driver
+[3.989s] [ 75%] [32mBuilding CXX object CMakeFiles/mocap4r2_dummy_driver_main.dir/src/mocap4r2_dummy_driver_main.cpp.o[0m
+[5.604s] [100%] [1m[32mLinking CXX executable mocap4r2_dummy_driver_main[0m
+[5.789s] [100%] Built target mocap4r2_dummy_driver_main
+[5.793s] Invoked command in '/home/nl455/mocap_ws/build/mocap4r2_dummy_driver' returned '0': AMENT_PREFIX_PATH=/home/nl455/mocap_ws/install/mocap4r2_control:/home/nl455/mocap_ws/install/mocap4r2_msgs:/home/nl455/mocap_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nl455/mocap_ws/install/mocap4r2_control:/home/nl455/mocap_ws/install/mocap4r2_msgs:/home/nl455/mocap_ws/install/mocap4r2_control_msgs:/home/nl455/miniconda3/envs/ros_env CONDA_PROMPT_MODIFIER=(ros_env) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nl455/mocap_ws/install/mocap4r2_control/lib:/home/nl455/mocap_ws/install/mocap4r2_msgs/lib:/home/nl455/mocap_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nl455/mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages:/home/nl455/mocap_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /home/nl455/miniconda3/envs/ros_env/bin/cmake --build /home/nl455/mocap_ws/build/mocap4r2_dummy_driver -- -j32 -l32
+[5.793s] Invoking command in '/home/nl455/mocap_ws/build/mocap4r2_dummy_driver': AMENT_PREFIX_PATH=/home/nl455/mocap_ws/install/mocap4r2_control:/home/nl455/mocap_ws/install/mocap4r2_msgs:/home/nl455/mocap_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nl455/mocap_ws/install/mocap4r2_control:/home/nl455/mocap_ws/install/mocap4r2_msgs:/home/nl455/mocap_ws/install/mocap4r2_control_msgs:/home/nl455/miniconda3/envs/ros_env CONDA_PROMPT_MODIFIER=(ros_env) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nl455/mocap_ws/install/mocap4r2_control/lib:/home/nl455/mocap_ws/install/mocap4r2_msgs/lib:/home/nl455/mocap_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nl455/mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages:/home/nl455/mocap_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /home/nl455/miniconda3/envs/ros_env/bin/cmake --install /home/nl455/mocap_ws/build/mocap4r2_dummy_driver
+[5.796s] -- Install configuration: ""
+[5.796s] -- Execute custom install script
+[5.796s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_dummy_driver/share/mocap4r2_dummy_driver/launch/dummy.launch.py
+[5.800s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_dummy_driver/lib/libmocap4r2_dummy_driver.a
+[5.805s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_dummy_driver/lib/mocap4r2_dummy_driver/mocap4r2_dummy_driver_main
+[5.809s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_dummy_driver/share/ament_index/resource_index/package_run_dependencies/mocap4r2_dummy_driver
+[5.812s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_dummy_driver/share/ament_index/resource_index/parent_prefix_path/mocap4r2_dummy_driver
+[5.815s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_dummy_driver/share/mocap4r2_dummy_driver/environment/ament_prefix_path.sh
+[5.818s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_dummy_driver/share/mocap4r2_dummy_driver/environment/ament_prefix_path.dsv
+[5.822s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_dummy_driver/share/mocap4r2_dummy_driver/environment/path.sh
+[5.825s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_dummy_driver/share/mocap4r2_dummy_driver/environment/path.dsv
+[5.828s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_dummy_driver/share/mocap4r2_dummy_driver/local_setup.bash
+[5.832s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_dummy_driver/share/mocap4r2_dummy_driver/local_setup.sh
+[5.835s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_dummy_driver/share/mocap4r2_dummy_driver/local_setup.zsh
+[5.838s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_dummy_driver/share/mocap4r2_dummy_driver/local_setup.dsv
+[5.840s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_dummy_driver/share/mocap4r2_dummy_driver/package.dsv
+[5.845s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_dummy_driver/share/ament_index/resource_index/packages/mocap4r2_dummy_driver
+[5.848s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_dummy_driver/share/mocap4r2_dummy_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.851s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_dummy_driver/share/mocap4r2_dummy_driver/cmake/mocap4r2_dummy_driverConfig.cmake
+[5.855s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_dummy_driver/share/mocap4r2_dummy_driver/cmake/mocap4r2_dummy_driverConfig-version.cmake
+[5.858s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_dummy_driver/share/mocap4r2_dummy_driver/package.xml
+[5.863s] Invoked command in '/home/nl455/mocap_ws/build/mocap4r2_dummy_driver' returned '0': AMENT_PREFIX_PATH=/home/nl455/mocap_ws/install/mocap4r2_control:/home/nl455/mocap_ws/install/mocap4r2_msgs:/home/nl455/mocap_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nl455/mocap_ws/install/mocap4r2_control:/home/nl455/mocap_ws/install/mocap4r2_msgs:/home/nl455/mocap_ws/install/mocap4r2_control_msgs:/home/nl455/miniconda3/envs/ros_env CONDA_PROMPT_MODIFIER=(ros_env) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nl455/mocap_ws/install/mocap4r2_control/lib:/home/nl455/mocap_ws/install/mocap4r2_msgs/lib:/home/nl455/mocap_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nl455/mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages:/home/nl455/mocap_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /home/nl455/miniconda3/envs/ros_env/bin/cmake --install /home/nl455/mocap_ws/build/mocap4r2_dummy_driver

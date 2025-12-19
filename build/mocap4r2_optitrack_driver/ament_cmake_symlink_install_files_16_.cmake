@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/nl455/mocap_ws/src/mocap4ros2_optitrack/mocap4r2_optitrack_driver" FILES "/home/nl455/mocap_ws/build/mocap4r2_optitrack_driver/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/mocap4r2_optitrack_driver/cmake")

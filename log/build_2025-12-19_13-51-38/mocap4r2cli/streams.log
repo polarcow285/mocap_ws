@@ -1,0 +1,88 @@
+[0.276s] Invoking command in '/home/nl455/mocap_ws/build/mocap4r2cli': AMENT_PREFIX_PATH=/home/nl455/mocap_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nl455/mocap_ws/install/mocap4r2_control_msgs CONDA_PROMPT_MODIFIER=(ros_env) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nl455/mocap_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nl455/mocap_ws/build/mocap4r2cli/prefix_override:/home/nl455/miniconda3/envs/ros_env/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/nl455/mocap_ws/install/mocap4r2cli/lib/python3.12/site-packages:/home/nl455/mocap_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /home/nl455/miniconda3/envs/ros_env/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/nl455/mocap_ws/build/mocap4r2cli/build
+[0.343s] /home/nl455/miniconda3/envs/ros_env/lib/python3.12/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[0.343s]   warnings.warn(msg)
+[0.354s] /home/nl455/miniconda3/envs/ros_env/lib/python3.12/site-packages/setuptools/dist.py:759: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+[0.354s] !!
+[0.354s] 
+[0.354s]         ********************************************************************************
+[0.354s]         Please consider removing the following classifiers in favor of a SPDX license expression:
+[0.354s] 
+[0.354s]         License :: OSI Approved :: Apache Software License
+[0.354s] 
+[0.354s]         See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+[0.354s]         ********************************************************************************
+[0.354s] 
+[0.354s] !!
+[0.354s]   self._finalize_license_expression()
+[0.381s] running develop
+[0.442s] Removing /home/nl455/mocap_ws/install/mocap4r2cli/lib/python3.12/site-packages/mocap4r2cli.egg-link (link to .)
+[0.466s] Invoked command in '/home/nl455/mocap_ws/build/mocap4r2cli' returned '0': AMENT_PREFIX_PATH=/home/nl455/mocap_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nl455/mocap_ws/install/mocap4r2_control_msgs CONDA_PROMPT_MODIFIER=(ros_env) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nl455/mocap_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nl455/mocap_ws/build/mocap4r2cli/prefix_override:/home/nl455/miniconda3/envs/ros_env/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/nl455/mocap_ws/install/mocap4r2cli/lib/python3.12/site-packages:/home/nl455/mocap_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /home/nl455/miniconda3/envs/ros_env/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/nl455/mocap_ws/build/mocap4r2cli/build
+[0.467s] Invoking command in '/home/nl455/mocap_ws/src/mocap4r2/mocap4r2cli': AMENT_PREFIX_PATH=/home/nl455/mocap_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nl455/mocap_ws/install/mocap4r2_control_msgs CONDA_PROMPT_MODIFIER=(ros_env) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nl455/mocap_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nl455/mocap_ws/build/mocap4r2cli/prefix_override:/home/nl455/miniconda3/envs/ros_env/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/nl455/mocap_ws/install/mocap4r2cli/lib/python3.12/site-packages:/home/nl455/mocap_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /home/nl455/miniconda3/envs/ros_env/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/mocap4r2cli build --build-base /home/nl455/mocap_ws/build/mocap4r2cli/build install --record /home/nl455/mocap_ws/build/mocap4r2cli/install.log --single-version-externally-managed install_data --force
+[0.537s] /home/nl455/miniconda3/envs/ros_env/lib/python3.12/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[0.538s]   warnings.warn(msg)
+[0.549s] /home/nl455/miniconda3/envs/ros_env/lib/python3.12/site-packages/setuptools/dist.py:759: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+[0.549s] !!
+[0.549s] 
+[0.549s]         ********************************************************************************
+[0.549s]         Please consider removing the following classifiers in favor of a SPDX license expression:
+[0.549s] 
+[0.549s]         License :: OSI Approved :: Apache Software License
+[0.549s] 
+[0.549s]         See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+[0.549s]         ********************************************************************************
+[0.549s] 
+[0.549s] !!
+[0.549s]   self._finalize_license_expression()
+[0.574s] running egg_info
+[0.579s] writing ../../../build/mocap4r2cli/mocap4r2cli.egg-info/PKG-INFO
+[0.580s] writing dependency_links to ../../../build/mocap4r2cli/mocap4r2cli.egg-info/dependency_links.txt
+[0.580s] writing entry points to ../../../build/mocap4r2cli/mocap4r2cli.egg-info/entry_points.txt
+[0.580s] writing requirements to ../../../build/mocap4r2cli/mocap4r2cli.egg-info/requires.txt
+[0.580s] writing top-level names to ../../../build/mocap4r2cli/mocap4r2cli.egg-info/top_level.txt
+[0.593s] reading manifest file '../../../build/mocap4r2cli/mocap4r2cli.egg-info/SOURCES.txt'
+[0.593s] adding license file 'LICENSE'
+[0.594s] writing manifest file '../../../build/mocap4r2cli/mocap4r2cli.egg-info/SOURCES.txt'
+[0.594s] running build
+[0.594s] running build_py
+[0.594s] creating /home/nl455/mocap_ws/build/mocap4r2cli/build/lib/mocap4r2cli
+[0.594s] copying mocap4r2cli/__init__.py -> /home/nl455/mocap_ws/build/mocap4r2cli/build/lib/mocap4r2cli
+[0.594s] creating /home/nl455/mocap_ws/build/mocap4r2cli/build/lib/mocap4r2cli/api
+[0.594s] copying mocap4r2cli/api/__init__.py -> /home/nl455/mocap_ws/build/mocap4r2cli/build/lib/mocap4r2cli/api
+[0.594s] creating /home/nl455/mocap_ws/build/mocap4r2cli/build/lib/mocap4r2cli/command
+[0.595s] copying mocap4r2cli/command/mocap4r2.py -> /home/nl455/mocap_ws/build/mocap4r2cli/build/lib/mocap4r2cli/command
+[0.595s] copying mocap4r2cli/command/__init__.py -> /home/nl455/mocap_ws/build/mocap4r2cli/build/lib/mocap4r2cli/command
+[0.595s] creating /home/nl455/mocap_ws/build/mocap4r2cli/build/lib/mocap4r2cli/verb
+[0.595s] copying mocap4r2cli/verb/stop.py -> /home/nl455/mocap_ws/build/mocap4r2cli/build/lib/mocap4r2cli/verb
+[0.595s] copying mocap4r2cli/verb/__init__.py -> /home/nl455/mocap_ws/build/mocap4r2cli/build/lib/mocap4r2cli/verb
+[0.595s] copying mocap4r2cli/verb/start.py -> /home/nl455/mocap_ws/build/mocap4r2cli/build/lib/mocap4r2cli/verb
+[0.595s] copying mocap4r2cli/verb/status.py -> /home/nl455/mocap_ws/build/mocap4r2cli/build/lib/mocap4r2cli/verb
+[0.595s] running install
+[0.597s] running install_lib
+[0.603s] creating /home/nl455/mocap_ws/install/mocap4r2cli/lib/python3.12/site-packages/mocap4r2cli
+[0.603s] creating /home/nl455/mocap_ws/install/mocap4r2cli/lib/python3.12/site-packages/mocap4r2cli/api
+[0.603s] copying /home/nl455/mocap_ws/build/mocap4r2cli/build/lib/mocap4r2cli/api/__init__.py -> /home/nl455/mocap_ws/install/mocap4r2cli/lib/python3.12/site-packages/mocap4r2cli/api
+[0.603s] creating /home/nl455/mocap_ws/install/mocap4r2cli/lib/python3.12/site-packages/mocap4r2cli/command
+[0.603s] copying /home/nl455/mocap_ws/build/mocap4r2cli/build/lib/mocap4r2cli/command/mocap4r2.py -> /home/nl455/mocap_ws/install/mocap4r2cli/lib/python3.12/site-packages/mocap4r2cli/command
+[0.603s] copying /home/nl455/mocap_ws/build/mocap4r2cli/build/lib/mocap4r2cli/command/__init__.py -> /home/nl455/mocap_ws/install/mocap4r2cli/lib/python3.12/site-packages/mocap4r2cli/command
+[0.603s] creating /home/nl455/mocap_ws/install/mocap4r2cli/lib/python3.12/site-packages/mocap4r2cli/verb
+[0.603s] copying /home/nl455/mocap_ws/build/mocap4r2cli/build/lib/mocap4r2cli/verb/stop.py -> /home/nl455/mocap_ws/install/mocap4r2cli/lib/python3.12/site-packages/mocap4r2cli/verb
+[0.603s] copying /home/nl455/mocap_ws/build/mocap4r2cli/build/lib/mocap4r2cli/verb/__init__.py -> /home/nl455/mocap_ws/install/mocap4r2cli/lib/python3.12/site-packages/mocap4r2cli/verb
+[0.603s] copying /home/nl455/mocap_ws/build/mocap4r2cli/build/lib/mocap4r2cli/verb/start.py -> /home/nl455/mocap_ws/install/mocap4r2cli/lib/python3.12/site-packages/mocap4r2cli/verb
+[0.603s] copying /home/nl455/mocap_ws/build/mocap4r2cli/build/lib/mocap4r2cli/verb/status.py -> /home/nl455/mocap_ws/install/mocap4r2cli/lib/python3.12/site-packages/mocap4r2cli/verb
+[0.603s] copying /home/nl455/mocap_ws/build/mocap4r2cli/build/lib/mocap4r2cli/__init__.py -> /home/nl455/mocap_ws/install/mocap4r2cli/lib/python3.12/site-packages/mocap4r2cli
+[0.603s] byte-compiling /home/nl455/mocap_ws/install/mocap4r2cli/lib/python3.12/site-packages/mocap4r2cli/api/__init__.py to __init__.cpython-312.pyc
+[0.603s] byte-compiling /home/nl455/mocap_ws/install/mocap4r2cli/lib/python3.12/site-packages/mocap4r2cli/command/mocap4r2.py to mocap4r2.cpython-312.pyc
+[0.604s] byte-compiling /home/nl455/mocap_ws/install/mocap4r2cli/lib/python3.12/site-packages/mocap4r2cli/command/__init__.py to __init__.cpython-312.pyc
+[0.604s] byte-compiling /home/nl455/mocap_ws/install/mocap4r2cli/lib/python3.12/site-packages/mocap4r2cli/verb/stop.py to stop.cpython-312.pyc
+[0.604s] byte-compiling /home/nl455/mocap_ws/install/mocap4r2cli/lib/python3.12/site-packages/mocap4r2cli/verb/__init__.py to __init__.cpython-312.pyc
+[0.605s] byte-compiling /home/nl455/mocap_ws/install/mocap4r2cli/lib/python3.12/site-packages/mocap4r2cli/verb/start.py to start.cpython-312.pyc
+[0.605s] byte-compiling /home/nl455/mocap_ws/install/mocap4r2cli/lib/python3.12/site-packages/mocap4r2cli/verb/status.py to status.cpython-312.pyc
+[0.605s] byte-compiling /home/nl455/mocap_ws/install/mocap4r2cli/lib/python3.12/site-packages/mocap4r2cli/__init__.py to __init__.cpython-312.pyc
+[0.605s] running install_data
+[0.605s] copying package.xml -> /home/nl455/mocap_ws/install/mocap4r2cli/share/mocap4r2cli
+[0.605s] copying resource/mocap4r2cli -> /home/nl455/mocap_ws/install/mocap4r2cli/share/ament_index/resource_index/packages
+[0.605s] running install_egg_info
+[0.610s] Copying ../../../build/mocap4r2cli/mocap4r2cli.egg-info to /home/nl455/mocap_ws/install/mocap4r2cli/lib/python3.12/site-packages/mocap4r2cli-0.0.1-py3.12.egg-info
+[0.611s] running install_scripts
+[0.641s] writing list of installed files to '/home/nl455/mocap_ws/build/mocap4r2cli/install.log'
+[0.657s] Invoked command in '/home/nl455/mocap_ws/src/mocap4r2/mocap4r2cli' returned '0': AMENT_PREFIX_PATH=/home/nl455/mocap_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nl455/mocap_ws/install/mocap4r2_control_msgs CONDA_PROMPT_MODIFIER=(ros_env) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nl455/mocap_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nl455/mocap_ws/build/mocap4r2cli/prefix_override:/home/nl455/miniconda3/envs/ros_env/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/nl455/mocap_ws/install/mocap4r2cli/lib/python3.12/site-packages:/home/nl455/mocap_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /home/nl455/miniconda3/envs/ros_env/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/mocap4r2cli build --build-base /home/nl455/mocap_ws/build/mocap4r2cli/build install --record /home/nl455/mocap_ws/build/mocap4r2cli/install.log --single-version-externally-managed install_data --force

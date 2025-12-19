@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/nl455/mocap_ws/src/mocap4r2/mocap4r2_dummy_driver" FILES "/home/nl455/mocap_ws/build/mocap4r2_dummy_driver/ament_cmake_core/mocap4r2_dummy_driverConfig.cmake" "/home/nl455/mocap_ws/build/mocap4r2_dummy_driver/ament_cmake_core/mocap4r2_dummy_driverConfig-version.cmake" "DESTINATION" "share/mocap4r2_dummy_driver/cmake")

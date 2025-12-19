@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/nl455/mocap_ws/build/mocap4r2_control/cmake_install.cmake",
+		"/home/nl455/mocap_ws/build/mocap4r2_control/test/cmake_install.cmake",
+		"/home/nl455/mocap_ws/build/mocap4r2_control/gtest/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

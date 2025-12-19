@@ -1,0 +1,8 @@
+[ 50%] Built target mocap4r2_marker_viz_NODE
+[ 75%] [1m[32mLinking CXX executable mocap4r2_marker_viz[0m
+/usr/bin/ld: cannot find -llttng-ust: No such file or directory
+/usr/bin/ld: cannot find -llttng-ust-common: No such file or directory
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/mocap4r2_marker_viz.dir/build.make:214: mocap4r2_marker_viz] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:156: CMakeFiles/mocap4r2_marker_viz.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

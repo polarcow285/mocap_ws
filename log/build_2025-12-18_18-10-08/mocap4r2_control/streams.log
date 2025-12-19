@@ -1,0 +1,11 @@
+[0.035s] Invoking command in '/home/nl455/mocap_ws/build/mocap4r2_control': AMENT_PREFIX_PATH=/home/nl455/mocap_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nl455/mocap_ws/install/mocap4r2_control_msgs:/home/nl455/miniconda3/envs/ros_env CONDA_PROMPT_MODIFIER=(ros_env) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nl455/mocap_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nl455/mocap_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /home/nl455/miniconda3/envs/ros_env/bin/cmake --build /home/nl455/mocap_ws/build/mocap4r2_control -- -j32 -l32
+[0.136s] [ 28%] Built target gtest
+[0.136s] [ 28%] Built target gtest_main
+[0.136s] [ 35%] [1m[32mLinking CXX shared library libmocap4r2_control.so[0m
+[0.136s] /usr/bin/ld: cannot find -llttng-ust: No such file or directory
+[0.136s] /usr/bin/ld: cannot find -llttng-ust-common: No such file or directory
+[0.157s] collect2: error: ld returned 1 exit status
+[0.158s] gmake[2]: *** [CMakeFiles/mocap4r2_control.dir/build.make:231: libmocap4r2_control.so] Error 1
+[0.158s] gmake[1]: *** [CMakeFiles/Makefile2:204: CMakeFiles/mocap4r2_control.dir/all] Error 2
+[0.158s] gmake: *** [Makefile:146: all] Error 2
+[0.159s] Invoked command in '/home/nl455/mocap_ws/build/mocap4r2_control' returned '2': AMENT_PREFIX_PATH=/home/nl455/mocap_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nl455/mocap_ws/install/mocap4r2_control_msgs:/home/nl455/miniconda3/envs/ros_env CONDA_PROMPT_MODIFIER=(ros_env) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nl455/mocap_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nl455/mocap_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /home/nl455/miniconda3/envs/ros_env/bin/cmake --build /home/nl455/mocap_ws/build/mocap4r2_control -- -j32 -l32

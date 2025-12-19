@@ -1,0 +1,36 @@
+[0.101s] Invoking command in '/home/nl455/mocap_ws/build/mocap4r2_robot_gt': AMENT_PREFIX_PATH=/home/nl455/mocap_ws/install/mocap4r2_robot_gt_msgs:/home/nl455/mocap_ws/install/mocap4r2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nl455/mocap_ws/install/mocap4r2_robot_gt_msgs:/home/nl455/mocap_ws/install/mocap4r2_msgs:/home/nl455/miniconda3/envs/ros_env CONDA_PROMPT_MODIFIER=(ros_env) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nl455/mocap_ws/install/mocap4r2_robot_gt_msgs/lib:/home/nl455/mocap_ws/install/mocap4r2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nl455/mocap_ws/install/mocap4r2_robot_gt_msgs/lib/python3.12/site-packages:/home/nl455/mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages:${PYTHONPATH} /home/nl455/miniconda3/envs/ros_env/bin/cmake --build /home/nl455/mocap_ws/build/mocap4r2_robot_gt -- -j32 -l32
+[0.121s] [ 25%] [1m[32mLinking CXX shared library libset_gt_component.so[0m
+[0.121s] [ 25%] [1m[32mLinking CXX shared library libgt_component.so[0m
+[0.208s] [ 37%] Built target set_gt_component
+[0.216s] [ 50%] [32mBuilding CXX object CMakeFiles/set_gt_cli.dir/src/set_gt_cli.cpp.o[0m
+[0.304s] [ 62%] Built target gt_component
+[0.312s] [ 75%] [32mBuilding CXX object CMakeFiles/gt_program.dir/src/gt_program.cpp.o[0m
+[1.947s] [ 87%] [1m[32mLinking CXX executable set_gt_cli[0m
+[2.018s] [ 87%] Built target set_gt_cli
+[2.058s] [100%] [1m[32mLinking CXX executable gt_program[0m
+[2.185s] [100%] Built target gt_program
+[2.189s] Invoked command in '/home/nl455/mocap_ws/build/mocap4r2_robot_gt' returned '0': AMENT_PREFIX_PATH=/home/nl455/mocap_ws/install/mocap4r2_robot_gt_msgs:/home/nl455/mocap_ws/install/mocap4r2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nl455/mocap_ws/install/mocap4r2_robot_gt_msgs:/home/nl455/mocap_ws/install/mocap4r2_msgs:/home/nl455/miniconda3/envs/ros_env CONDA_PROMPT_MODIFIER=(ros_env) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nl455/mocap_ws/install/mocap4r2_robot_gt_msgs/lib:/home/nl455/mocap_ws/install/mocap4r2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nl455/mocap_ws/install/mocap4r2_robot_gt_msgs/lib/python3.12/site-packages:/home/nl455/mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages:${PYTHONPATH} /home/nl455/miniconda3/envs/ros_env/bin/cmake --build /home/nl455/mocap_ws/build/mocap4r2_robot_gt -- -j32 -l32
+[2.190s] Invoking command in '/home/nl455/mocap_ws/build/mocap4r2_robot_gt': AMENT_PREFIX_PATH=/home/nl455/mocap_ws/install/mocap4r2_robot_gt_msgs:/home/nl455/mocap_ws/install/mocap4r2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nl455/mocap_ws/install/mocap4r2_robot_gt_msgs:/home/nl455/mocap_ws/install/mocap4r2_msgs:/home/nl455/miniconda3/envs/ros_env CONDA_PROMPT_MODIFIER=(ros_env) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nl455/mocap_ws/install/mocap4r2_robot_gt_msgs/lib:/home/nl455/mocap_ws/install/mocap4r2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nl455/mocap_ws/install/mocap4r2_robot_gt_msgs/lib/python3.12/site-packages:/home/nl455/mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages:${PYTHONPATH} /home/nl455/miniconda3/envs/ros_env/bin/cmake --install /home/nl455/mocap_ws/build/mocap4r2_robot_gt
+[2.193s] -- Install configuration: ""
+[2.193s] -- Execute custom install script
+[2.193s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_robot_gt/lib/libgt_component.so
+[2.196s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_robot_gt/lib/mocap4r2_robot_gt/gt_program
+[2.199s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_robot_gt/lib/libset_gt_component.so
+[2.202s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_robot_gt/lib/mocap4r2_robot_gt/set_gt_cli
+[2.204s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_robot_gt/share/ament_index/resource_index/package_run_dependencies/mocap4r2_robot_gt
+[2.207s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_robot_gt/share/ament_index/resource_index/parent_prefix_path/mocap4r2_robot_gt
+[2.209s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_robot_gt/share/mocap4r2_robot_gt/environment/ament_prefix_path.sh
+[2.212s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_robot_gt/share/mocap4r2_robot_gt/environment/ament_prefix_path.dsv
+[2.215s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_robot_gt/share/mocap4r2_robot_gt/environment/path.sh
+[2.218s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_robot_gt/share/mocap4r2_robot_gt/environment/path.dsv
+[2.221s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_robot_gt/share/mocap4r2_robot_gt/local_setup.bash
+[2.224s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_robot_gt/share/mocap4r2_robot_gt/local_setup.sh
+[2.227s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_robot_gt/share/mocap4r2_robot_gt/local_setup.zsh
+[2.231s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_robot_gt/share/mocap4r2_robot_gt/local_setup.dsv
+[2.233s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_robot_gt/share/mocap4r2_robot_gt/package.dsv
+[2.236s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_robot_gt/share/ament_index/resource_index/packages/mocap4r2_robot_gt
+[2.239s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_robot_gt/share/ament_index/resource_index/rclcpp_components/mocap4r2_robot_gt
+[2.241s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_robot_gt/share/mocap4r2_robot_gt/cmake/mocap4r2_robot_gtConfig.cmake
+[2.244s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_robot_gt/share/mocap4r2_robot_gt/cmake/mocap4r2_robot_gtConfig-version.cmake
+[2.247s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_robot_gt/share/mocap4r2_robot_gt/package.xml
+[2.252s] Invoked command in '/home/nl455/mocap_ws/build/mocap4r2_robot_gt' returned '0': AMENT_PREFIX_PATH=/home/nl455/mocap_ws/install/mocap4r2_robot_gt_msgs:/home/nl455/mocap_ws/install/mocap4r2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nl455/mocap_ws/install/mocap4r2_robot_gt_msgs:/home/nl455/mocap_ws/install/mocap4r2_msgs:/home/nl455/miniconda3/envs/ros_env CONDA_PROMPT_MODIFIER=(ros_env) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nl455/mocap_ws/install/mocap4r2_robot_gt_msgs/lib:/home/nl455/mocap_ws/install/mocap4r2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nl455/mocap_ws/install/mocap4r2_robot_gt_msgs/lib/python3.12/site-packages:/home/nl455/mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages:${PYTHONPATH} /home/nl455/miniconda3/envs/ros_env/bin/cmake --install /home/nl455/mocap_ws/build/mocap4r2_robot_gt

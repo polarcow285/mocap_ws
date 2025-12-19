@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/nl455/mocap_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control_msgs" FILES "/home/nl455/mocap_ws/build/mocap4r2_control_msgs/rosidl_generator_type_description/mocap4r2_control_msgs/msg/MocapInfo.json" "DESTINATION" "share/mocap4r2_control_msgs/msg")

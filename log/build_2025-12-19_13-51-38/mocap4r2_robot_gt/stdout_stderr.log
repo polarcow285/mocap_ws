@@ -1,0 +1,143 @@
+[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+[0m
+-- Found ament_cmake: 2.7.3 (/home/nl455/miniconda3/envs/ros_env/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 29.5.3 (/home/nl455/miniconda3/envs/ros_env/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.9.5 (/home/nl455/miniconda3/envs/ros_env/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.9.5 (/home/nl455/miniconda3/envs/ros_env/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.8.2 (/home/nl455/miniconda3/envs/ros_env/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 9.3.3 (/home/nl455/miniconda3/envs/ros_env/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_components: 29.5.3 (/home/nl455/miniconda3/envs/ros_env/share/rclcpp_components/cmake)
+-- Found mocap4r2_msgs: 0.2.0 (/home/nl455/mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake)
+-- Found mocap4r2_robot_gt_msgs: 0.0.7 (/home/nl455/mocap_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/cmake)
+-- Found tf2_ros: 0.41.2 (/home/nl455/miniconda3/envs/ros_env/share/tf2_ros/cmake)
+-- Found tf2_geometry_msgs: 0.41.2 (/home/nl455/miniconda3/envs/ros_env/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.4.0 (/home/nl455/miniconda3/envs/ros_env/share/eigen3_cmake_module/cmake)
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0mCMake Deprecation Warning at /home/nl455/miniconda3/envs/ros_env/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+  ament_target_dependencies() is deprecated.  Use target_link_libraries()
+  with modern CMake targets instead.  Try replacing this call with:
+
+    target_link_libraries(gt_component PUBLIC
+      ${geometry_msgs_TARGETS}
+      ${mocap4r2_msgs_TARGETS}
+      ${mocap4r2_robot_gt_msgs_TARGETS}
+      rclcpp::rclcpp
+      rclcpp_components::component
+      rclcpp_components::component_manager
+      tf2_geometry_msgs::tf2_geometry_msgs
+      tf2_ros::static_transform_broadcaster_node
+      tf2_ros::tf2_ros
+    )
+
+Call Stack (most recent call first):
+  CMakeLists.txt:33 (ament_target_dependencies)
+
+[0m
+[0mCMake Deprecation Warning at /home/nl455/miniconda3/envs/ros_env/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+  ament_target_dependencies() is deprecated.  Use target_link_libraries()
+  with modern CMake targets instead.  Try replacing this call with:
+
+    target_link_libraries(gt_component PUBLIC
+      ${geometry_msgs_TARGETS}
+      ${mocap4r2_msgs_TARGETS}
+      ${mocap4r2_robot_gt_msgs_TARGETS}
+      rclcpp::rclcpp
+      rclcpp_components::component
+      rclcpp_components::component_manager
+      tf2_geometry_msgs::tf2_geometry_msgs
+      tf2_ros::static_transform_broadcaster_node
+      tf2_ros::tf2_ros
+    )
+
+Call Stack (most recent call first):
+  CMakeLists.txt:37 (ament_target_dependencies)
+
+[0m
+[0mCMake Deprecation Warning at /home/nl455/miniconda3/envs/ros_env/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+  ament_target_dependencies() is deprecated.  Use target_link_libraries()
+  with modern CMake targets instead.  Try replacing this call with:
+
+    target_link_libraries(set_gt_component PUBLIC
+      ${geometry_msgs_TARGETS}
+      ${mocap4r2_msgs_TARGETS}
+      ${mocap4r2_robot_gt_msgs_TARGETS}
+      rclcpp::rclcpp
+      rclcpp_components::component
+      rclcpp_components::component_manager
+      tf2_geometry_msgs::tf2_geometry_msgs
+      tf2_ros::static_transform_broadcaster_node
+      tf2_ros::tf2_ros
+    )
+
+Call Stack (most recent call first):
+  CMakeLists.txt:41 (ament_target_dependencies)
+
+[0m
+[0mCMake Deprecation Warning at /home/nl455/miniconda3/envs/ros_env/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+  ament_target_dependencies() is deprecated.  Use target_link_libraries()
+  with modern CMake targets instead.  Try replacing this call with:
+
+    target_link_libraries(set_gt_cli PUBLIC
+      ${geometry_msgs_TARGETS}
+      ${mocap4r2_msgs_TARGETS}
+      ${mocap4r2_robot_gt_msgs_TARGETS}
+      rclcpp::rclcpp
+      rclcpp_components::component
+      rclcpp_components::component_manager
+      tf2_geometry_msgs::tf2_geometry_msgs
+      tf2_ros::static_transform_broadcaster_node
+      tf2_ros::tf2_ros
+    )
+
+Call Stack (most recent call first):
+  CMakeLists.txt:45 (ament_target_dependencies)
+
+[0m
+-- Found ament_lint_auto: 0.19.2 (/home/nl455/miniconda3/envs/ros_env/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/nl455/mocap_ws/src/mocap4r2/mocap4r2_robot_gt/mocap4r2_robot_gt/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (0.4s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/nl455/mocap_ws/build/mocap4r2_robot_gt
+[ 37%] Built target gt_component
+[ 50%] Built target set_gt_component
+[ 75%] Built target gt_program
+[100%] Built target set_gt_cli
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/nl455/mocap_ws/install/mocap4r2_robot_gt/lib/libgt_component.so
+-- Up-to-date symlink: /home/nl455/mocap_ws/install/mocap4r2_robot_gt/lib/mocap4r2_robot_gt/gt_program
+-- Up-to-date symlink: /home/nl455/mocap_ws/install/mocap4r2_robot_gt/lib/libset_gt_component.so
+-- Up-to-date symlink: /home/nl455/mocap_ws/install/mocap4r2_robot_gt/lib/mocap4r2_robot_gt/set_gt_cli
+-- Up-to-date symlink: /home/nl455/mocap_ws/install/mocap4r2_robot_gt/share/ament_index/resource_index/package_run_dependencies/mocap4r2_robot_gt
+-- Up-to-date symlink: /home/nl455/mocap_ws/install/mocap4r2_robot_gt/share/ament_index/resource_index/parent_prefix_path/mocap4r2_robot_gt
+-- Up-to-date symlink: /home/nl455/mocap_ws/install/mocap4r2_robot_gt/share/mocap4r2_robot_gt/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/nl455/mocap_ws/install/mocap4r2_robot_gt/share/mocap4r2_robot_gt/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/nl455/mocap_ws/install/mocap4r2_robot_gt/share/mocap4r2_robot_gt/environment/path.sh
+-- Up-to-date symlink: /home/nl455/mocap_ws/install/mocap4r2_robot_gt/share/mocap4r2_robot_gt/environment/path.dsv
+-- Up-to-date symlink: /home/nl455/mocap_ws/install/mocap4r2_robot_gt/share/mocap4r2_robot_gt/local_setup.bash
+-- Up-to-date symlink: /home/nl455/mocap_ws/install/mocap4r2_robot_gt/share/mocap4r2_robot_gt/local_setup.sh
+-- Up-to-date symlink: /home/nl455/mocap_ws/install/mocap4r2_robot_gt/share/mocap4r2_robot_gt/local_setup.zsh
+-- Up-to-date symlink: /home/nl455/mocap_ws/install/mocap4r2_robot_gt/share/mocap4r2_robot_gt/local_setup.dsv
+-- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_robot_gt/share/mocap4r2_robot_gt/package.dsv
+-- Up-to-date symlink: /home/nl455/mocap_ws/install/mocap4r2_robot_gt/share/ament_index/resource_index/packages/mocap4r2_robot_gt
+-- Up-to-date symlink: /home/nl455/mocap_ws/install/mocap4r2_robot_gt/share/ament_index/resource_index/rclcpp_components/mocap4r2_robot_gt
+-- Up-to-date symlink: /home/nl455/mocap_ws/install/mocap4r2_robot_gt/share/mocap4r2_robot_gt/cmake/mocap4r2_robot_gtConfig.cmake
+-- Up-to-date symlink: /home/nl455/mocap_ws/install/mocap4r2_robot_gt/share/mocap4r2_robot_gt/cmake/mocap4r2_robot_gtConfig-version.cmake
+-- Up-to-date symlink: /home/nl455/mocap_ws/install/mocap4r2_robot_gt/share/mocap4r2_robot_gt/package.xml

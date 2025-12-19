@@ -1,0 +1,19 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "mocap4r2_control_msgs__py",
+		"source" : "/home/nl455/mocap_ws/build/mocap4r2_control_msgs/mocap4r2_control_msgs__py"
+	}
+}

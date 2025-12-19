@@ -1,0 +1,151 @@
+[0.005s] Invoking command in '/home/nl455/mocap_ws/build/mocap4r2_robot_gt': AMENT_PREFIX_PATH=/home/nl455/mocap_ws/install/mocap4r2_robot_gt_msgs:/home/nl455/mocap_ws/install/mocap4r2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nl455/mocap_ws/install/mocap4r2_robot_gt_msgs:/home/nl455/mocap_ws/install/mocap4r2_msgs:/home/nl455/miniconda3/envs/ros_env CONDA_PROMPT_MODIFIER=(ros_env) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nl455/mocap_ws/install/mocap4r2_robot_gt_msgs/lib:/home/nl455/mocap_ws/install/mocap4r2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nl455/mocap_ws/install/mocap4r2_robot_gt_msgs/lib/python3.12/site-packages:/home/nl455/mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages:${PYTHONPATH} /home/nl455/miniconda3/envs/ros_env/bin/cmake /home/nl455/mocap_ws/src/mocap4r2/mocap4r2_robot_gt/mocap4r2_robot_gt -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nl455/mocap_ws/install/mocap4r2_robot_gt
+[0.011s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.011s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.011s]   CMake.
+[0.011s] 
+[0.011s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.011s]   to tell CMake that the project requires at least <min> but has been updated
+[0.011s]   to work with policies introduced by <max> or earlier.
+[0.011s] 
+[0.011s] [0m
+[0.034s] -- The C compiler identification is GNU 13.3.0
+[0.064s] -- The CXX compiler identification is GNU 13.3.0
+[0.068s] -- Detecting C compiler ABI info
+[0.100s] -- Detecting C compiler ABI info - done
+[0.107s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.108s] -- Detecting C compile features
+[0.108s] -- Detecting C compile features - done
+[0.114s] -- Detecting CXX compiler ABI info
+[0.150s] -- Detecting CXX compiler ABI info - done
+[0.158s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.158s] -- Detecting CXX compile features
+[0.159s] -- Detecting CXX compile features - done
+[0.164s] -- Found ament_cmake: 2.7.3 (/home/nl455/miniconda3/envs/ros_env/share/ament_cmake/cmake)
+[0.227s] -- Found Python3: /home/nl455/miniconda3/envs/ros_env/bin/python3 (found version "3.12.12") found components: Interpreter
+[0.266s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.297s] -- Found rclcpp: 29.5.3 (/home/nl455/miniconda3/envs/ros_env/share/rclcpp/cmake)
+[0.325s] -- Found rosidl_generator_c: 4.9.5 (/home/nl455/miniconda3/envs/ros_env/share/rosidl_generator_c/cmake)
+[0.334s] -- Found rosidl_generator_cpp: 4.9.5 (/home/nl455/miniconda3/envs/ros_env/share/rosidl_generator_cpp/cmake)
+[0.345s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.357s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.415s] -- Found rmw_implementation_cmake: 7.8.2 (/home/nl455/miniconda3/envs/ros_env/share/rmw_implementation_cmake/cmake)
+[0.418s] -- Found rmw_fastrtps_cpp: 9.3.3 (/home/nl455/miniconda3/envs/ros_env/share/rmw_fastrtps_cpp/cmake)
+[0.566s] -- Found OpenSSL: /home/nl455/miniconda3/envs/ros_env/lib/libcrypto.so (found version "3.6.0")
+[0.578s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.630s] -- Found rclcpp_components: 29.5.3 (/home/nl455/miniconda3/envs/ros_env/share/rclcpp_components/cmake)
+[0.652s] -- Found mocap4r2_msgs: 0.2.0 (/home/nl455/mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake)
+[0.690s] -- Found mocap4r2_robot_gt_msgs: 0.0.7 (/home/nl455/mocap_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/cmake)
+[0.706s] -- Found tf2_ros: 0.41.2 (/home/nl455/miniconda3/envs/ros_env/share/tf2_ros/cmake)
+[0.772s] -- Found tf2_geometry_msgs: 0.41.2 (/home/nl455/miniconda3/envs/ros_env/share/tf2_geometry_msgs/cmake)
+[0.782s] -- Found eigen3_cmake_module: 0.4.0 (/home/nl455/miniconda3/envs/ros_env/share/eigen3_cmake_module/cmake)
+[0.783s] -- Found Eigen3: TRUE (found version "3.4.0")
+[0.783s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.785s] [0mCMake Deprecation Warning at /home/nl455/miniconda3/envs/ros_env/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+[0.785s]   ament_target_dependencies() is deprecated.  Use target_link_libraries()
+[0.785s]   with modern CMake targets instead.  Try replacing this call with:
+[0.785s] 
+[0.785s]     target_link_libraries(gt_component PUBLIC
+[0.785s]       ${geometry_msgs_TARGETS}
+[0.785s]       ${mocap4r2_msgs_TARGETS}
+[0.785s]       ${mocap4r2_robot_gt_msgs_TARGETS}
+[0.785s]       rclcpp::rclcpp
+[0.785s]       rclcpp_components::component
+[0.785s]       rclcpp_components::component_manager
+[0.785s]       tf2_geometry_msgs::tf2_geometry_msgs
+[0.785s]       tf2_ros::static_transform_broadcaster_node
+[0.785s]       tf2_ros::tf2_ros
+[0.785s]     )
+[0.785s] 
+[0.785s] Call Stack (most recent call first):
+[0.785s]   CMakeLists.txt:33 (ament_target_dependencies)
+[0.785s] 
+[0.785s] [0m
+[0.787s] [0mCMake Deprecation Warning at /home/nl455/miniconda3/envs/ros_env/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+[0.787s]   ament_target_dependencies() is deprecated.  Use target_link_libraries()
+[0.787s]   with modern CMake targets instead.  Try replacing this call with:
+[0.787s] 
+[0.787s]     target_link_libraries(gt_component PUBLIC
+[0.787s]       ${geometry_msgs_TARGETS}
+[0.787s]       ${mocap4r2_msgs_TARGETS}
+[0.787s]       ${mocap4r2_robot_gt_msgs_TARGETS}
+[0.787s]       rclcpp::rclcpp
+[0.787s]       rclcpp_components::component
+[0.787s]       rclcpp_components::component_manager
+[0.787s]       tf2_geometry_msgs::tf2_geometry_msgs
+[0.787s]       tf2_ros::static_transform_broadcaster_node
+[0.787s]       tf2_ros::tf2_ros
+[0.787s]     )
+[0.787s] 
+[0.787s] Call Stack (most recent call first):
+[0.787s]   CMakeLists.txt:37 (ament_target_dependencies)
+[0.787s] 
+[0.787s] [0m
+[0.788s] [0mCMake Deprecation Warning at /home/nl455/miniconda3/envs/ros_env/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+[0.788s]   ament_target_dependencies() is deprecated.  Use target_link_libraries()
+[0.788s]   with modern CMake targets instead.  Try replacing this call with:
+[0.788s] 
+[0.788s]     target_link_libraries(set_gt_component PUBLIC
+[0.788s]       ${geometry_msgs_TARGETS}
+[0.788s]       ${mocap4r2_msgs_TARGETS}
+[0.788s]       ${mocap4r2_robot_gt_msgs_TARGETS}
+[0.788s]       rclcpp::rclcpp
+[0.788s]       rclcpp_components::component
+[0.788s]       rclcpp_components::component_manager
+[0.788s]       tf2_geometry_msgs::tf2_geometry_msgs
+[0.788s]       tf2_ros::static_transform_broadcaster_node
+[0.788s]       tf2_ros::tf2_ros
+[0.788s]     )
+[0.788s] 
+[0.788s] Call Stack (most recent call first):
+[0.788s]   CMakeLists.txt:41 (ament_target_dependencies)
+[0.788s] 
+[0.788s] [0m
+[0.789s] [0mCMake Deprecation Warning at /home/nl455/miniconda3/envs/ros_env/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+[0.789s]   ament_target_dependencies() is deprecated.  Use target_link_libraries()
+[0.789s]   with modern CMake targets instead.  Try replacing this call with:
+[0.790s] 
+[0.790s]     target_link_libraries(set_gt_cli PUBLIC
+[0.790s]       ${geometry_msgs_TARGETS}
+[0.790s]       ${mocap4r2_msgs_TARGETS}
+[0.790s]       ${mocap4r2_robot_gt_msgs_TARGETS}
+[0.790s]       rclcpp::rclcpp
+[0.790s]       rclcpp_components::component
+[0.790s]       rclcpp_components::component_manager
+[0.790s]       tf2_geometry_msgs::tf2_geometry_msgs
+[0.790s]       tf2_ros::static_transform_broadcaster_node
+[0.790s]       tf2_ros::tf2_ros
+[0.790s]     )
+[0.790s] 
+[0.790s] Call Stack (most recent call first):
+[0.790s]   CMakeLists.txt:45 (ament_target_dependencies)
+[0.790s] 
+[0.790s] [0m
+[0.793s] -- Found ament_lint_auto: 0.19.2 (/home/nl455/miniconda3/envs/ros_env/share/ament_lint_auto/cmake)
+[0.857s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.857s] -- Configured cppcheck include dirs: /home/nl455/mocap_ws/src/mocap4r2/mocap4r2_robot_gt/mocap4r2_robot_gt/include
+[0.857s] -- Configured cppcheck exclude dirs and/or files: 
+[0.858s] -- Added test 'lint_cmake' to check CMake code style
+[0.858s] -- Added test 'uncrustify' to check C / C++ code style
+[0.858s] -- Configured uncrustify additional arguments: 
+[0.858s] -- Added test 'xmllint' to check XML markup files
+[0.859s] -- Configuring done (0.9s)
+[0.877s] -- Generating done (0.0s)
+[0.895s] -- Build files have been written to: /home/nl455/mocap_ws/build/mocap4r2_robot_gt
+[0.904s] Invoked command in '/home/nl455/mocap_ws/build/mocap4r2_robot_gt' returned '0': AMENT_PREFIX_PATH=/home/nl455/mocap_ws/install/mocap4r2_robot_gt_msgs:/home/nl455/mocap_ws/install/mocap4r2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nl455/mocap_ws/install/mocap4r2_robot_gt_msgs:/home/nl455/mocap_ws/install/mocap4r2_msgs:/home/nl455/miniconda3/envs/ros_env CONDA_PROMPT_MODIFIER=(ros_env) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nl455/mocap_ws/install/mocap4r2_robot_gt_msgs/lib:/home/nl455/mocap_ws/install/mocap4r2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nl455/mocap_ws/install/mocap4r2_robot_gt_msgs/lib/python3.12/site-packages:/home/nl455/mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages:${PYTHONPATH} /home/nl455/miniconda3/envs/ros_env/bin/cmake /home/nl455/mocap_ws/src/mocap4r2/mocap4r2_robot_gt/mocap4r2_robot_gt -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nl455/mocap_ws/install/mocap4r2_robot_gt
+[0.904s] Invoking command in '/home/nl455/mocap_ws/build/mocap4r2_robot_gt': AMENT_PREFIX_PATH=/home/nl455/mocap_ws/install/mocap4r2_robot_gt_msgs:/home/nl455/mocap_ws/install/mocap4r2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nl455/mocap_ws/install/mocap4r2_robot_gt_msgs:/home/nl455/mocap_ws/install/mocap4r2_msgs:/home/nl455/miniconda3/envs/ros_env CONDA_PROMPT_MODIFIER=(ros_env) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nl455/mocap_ws/install/mocap4r2_robot_gt_msgs/lib:/home/nl455/mocap_ws/install/mocap4r2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nl455/mocap_ws/install/mocap4r2_robot_gt_msgs/lib/python3.12/site-packages:/home/nl455/mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages:${PYTHONPATH} /home/nl455/miniconda3/envs/ros_env/bin/cmake --build /home/nl455/mocap_ws/build/mocap4r2_robot_gt -- -j32 -l32
+[0.924s] [ 12%] [32mBuilding CXX object CMakeFiles/gt_component.dir/src/mocap4r2_robot_gt/gt_component.cpp.o[0m
+[0.924s] [ 25%] [32mBuilding CXX object CMakeFiles/set_gt_component.dir/src/mocap4r2_robot_gt/set_gt_component.cpp.o[0m
+[3.354s] [ 37%] [1m[32mLinking CXX shared library libset_gt_component.so[0m
+[3.374s] /usr/bin/ld: cannot find -llttng-ust: No such file or directory
+[3.374s] /usr/bin/ld: cannot find -llttng-ust-common: No such file or directory
+[3.401s] collect2: error: ld returned 1 exit status
+[3.402s] gmake[2]: *** [CMakeFiles/set_gt_component.dir/build.make:240: libset_gt_component.so] Error 1
+[3.402s] gmake[1]: *** [CMakeFiles/Makefile2:226: CMakeFiles/set_gt_component.dir/all] Error 2
+[3.402s] gmake[1]: *** Waiting for unfinished jobs....
+[5.726s] [ 50%] [1m[32mLinking CXX shared library libgt_component.so[0m
+[5.778s] /usr/bin/ld: cannot find -llttng-ust: No such file or directory
+[5.778s] /usr/bin/ld: cannot find -llttng-ust-common: No such file or directory
+[5.828s] collect2: error: ld returned 1 exit status
+[5.829s] gmake[2]: *** [CMakeFiles/gt_component.dir/build.make:240: libgt_component.so] Error 1
+[5.829s] gmake[1]: *** [CMakeFiles/Makefile2:162: CMakeFiles/gt_component.dir/all] Error 2
+[5.829s] gmake: *** [Makefile:146: all] Error 2

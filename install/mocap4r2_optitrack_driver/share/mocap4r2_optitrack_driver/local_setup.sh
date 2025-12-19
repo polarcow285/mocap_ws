@@ -1,0 +1,1 @@
+/home/nl455/mocap_ws/build/mocap4r2_optitrack_driver/ament_cmake_environment_hooks/local_setup.sh

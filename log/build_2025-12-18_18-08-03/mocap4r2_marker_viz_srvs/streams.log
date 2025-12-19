@@ -1,0 +1,240 @@
+[0.008s] Invoking command in '/home/nl455/mocap_ws/build/mocap4r2_marker_viz_srvs': CMAKE_PREFIX_PATH=/home/nl455/miniconda3/envs/ros_env CONDA_PROMPT_MODIFIER=(ros_env) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /home/nl455/miniconda3/envs/ros_env/bin/cmake /home/nl455/mocap_ws/src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz_srvs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs
+[0.016s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.016s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.016s]   CMake.
+[0.016s] 
+[0.016s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.016s]   to tell CMake that the project requires at least <min> but has been updated
+[0.016s]   to work with policies introduced by <max> or earlier.
+[0.017s] 
+[0.017s] [0m
+[0.070s] -- The C compiler identification is GNU 13.3.0
+[0.126s] -- The CXX compiler identification is GNU 13.3.0
+[0.130s] -- Detecting C compiler ABI info
+[0.164s] -- Detecting C compiler ABI info - done
+[0.172s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.172s] -- Detecting C compile features
+[0.172s] -- Detecting C compile features - done
+[0.178s] -- Detecting CXX compiler ABI info
+[0.216s] -- Detecting CXX compiler ABI info - done
+[0.224s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.224s] -- Detecting CXX compile features
+[0.224s] -- Detecting CXX compile features - done
+[0.229s] -- Found ament_cmake: 2.7.3 (/home/nl455/miniconda3/envs/ros_env/share/ament_cmake/cmake)
+[0.291s] -- Found Python3: /home/nl455/miniconda3/envs/ros_env/bin/python3 (found version "3.12.12") found components: Interpreter
+[0.329s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.357s] -- Found rosidl_default_generators: 1.7.1 (/home/nl455/miniconda3/envs/ros_env/share/rosidl_default_generators/cmake)
+[0.362s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.394s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.422s] -- Found rosidl_adapter: 4.9.5 (/home/nl455/miniconda3/envs/ros_env/share/rosidl_adapter/cmake)
+[0.424s] -- Found std_msgs: 5.5.0 (/home/nl455/miniconda3/envs/ros_env/share/std_msgs/cmake)
+[0.730s] -- Found ament_cmake_cppcheck: 0.19.2 (/home/nl455/miniconda3/envs/ros_env/share/ament_cmake_cppcheck/cmake)
+[0.732s] -- Found ament_cmake_cpplint: 0.19.2 (/home/nl455/miniconda3/envs/ros_env/share/ament_cmake_cpplint/cmake)
+[0.735s] -- Found ament_cmake_uncrustify: 0.19.2 (/home/nl455/miniconda3/envs/ros_env/share/ament_cmake_uncrustify/cmake)
+[0.737s] -- Found ament_cmake_ros_core: 0.14.3 (/home/nl455/miniconda3/envs/ros_env/share/ament_cmake_ros_core/cmake)
+[0.941s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.209s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.519s] -- Found Python3: /home/nl455/miniconda3/envs/ros_env/bin/python3 (found version "3.12.12") found components: Interpreter Development NumPy Development.Module Development.Embed
+[1.554s] -- Found ament_cmake_flake8: 0.19.2 (/home/nl455/miniconda3/envs/ros_env/share/ament_cmake_flake8/cmake)
+[1.559s] -- Found ament_cmake_pep257: 0.19.2 (/home/nl455/miniconda3/envs/ros_env/share/ament_cmake_pep257/cmake)
+[1.564s] -- Configuring done (1.6s)
+[1.595s] -- Generating done (0.0s)
+[1.603s] -- Build files have been written to: /home/nl455/mocap_ws/build/mocap4r2_marker_viz_srvs
+[1.610s] Invoked command in '/home/nl455/mocap_ws/build/mocap4r2_marker_viz_srvs' returned '0': CMAKE_PREFIX_PATH=/home/nl455/miniconda3/envs/ros_env CONDA_PROMPT_MODIFIER=(ros_env) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /home/nl455/miniconda3/envs/ros_env/bin/cmake /home/nl455/mocap_ws/src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz_srvs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs
+[1.610s] Invoking command in '/home/nl455/mocap_ws/build/mocap4r2_marker_viz_srvs': CMAKE_PREFIX_PATH=/home/nl455/miniconda3/envs/ros_env CONDA_PROMPT_MODIFIER=(ros_env) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /home/nl455/miniconda3/envs/ros_env/bin/cmake --build /home/nl455/mocap_ws/build/mocap4r2_marker_viz_srvs -- -j32 -l32
+[1.628s] [  2%] [1m[34mGenerating type hashes for ROS interfaces[0m
+[1.630s] [  2%] Built target ament_cmake_python_symlink_mocap4r2_marker_viz_srvs
+[1.713s] [  2%] Built target mocap4r2_marker_viz_srvs__rosidl_generator_type_description
+[1.717s] [  4%] [1m[34mGenerating C code for ROS interfaces[0m
+[1.720s] [  6%] [1m[34mGenerating C++ code for ROS interfaces[0m
+[1.721s] running egg_info
+[1.728s] creating mocap4r2_marker_viz_srvs.egg-info
+[1.728s] writing mocap4r2_marker_viz_srvs.egg-info/PKG-INFO
+[1.728s] writing dependency_links to mocap4r2_marker_viz_srvs.egg-info/dependency_links.txt
+[1.728s] writing top-level names to mocap4r2_marker_viz_srvs.egg-info/top_level.txt
+[1.728s] writing manifest file 'mocap4r2_marker_viz_srvs.egg-info/SOURCES.txt'
+[1.746s] reading manifest file 'mocap4r2_marker_viz_srvs.egg-info/SOURCES.txt'
+[1.746s] writing manifest file 'mocap4r2_marker_viz_srvs.egg-info/SOURCES.txt'
+[1.763s] [  6%] Built target ament_cmake_python_build_mocap4r2_marker_viz_srvs_egg
+[1.857s] [  6%] Built target mocap4r2_marker_viz_srvs__cpp
+[1.876s] [  9%] [32mBuilding C object CMakeFiles/mocap4r2_marker_viz_srvs__rosidl_generator_c.dir/rosidl_generator_c/mocap4r2_marker_viz_srvs/srv/detail/set_marker_color__functions.c.o[0m
+[1.876s] [ 11%] [32mBuilding C object CMakeFiles/mocap4r2_marker_viz_srvs__rosidl_generator_c.dir/rosidl_generator_c/mocap4r2_marker_viz_srvs/srv/detail/set_marker_color__type_support.c.o[0m
+[1.876s] [ 18%] [32mBuilding C object CMakeFiles/mocap4r2_marker_viz_srvs__rosidl_generator_c.dir/rosidl_generator_c/mocap4r2_marker_viz_srvs/srv/detail/set_marker_color__description.c.o[0m
+[1.877s] [ 18%] [32mBuilding C object CMakeFiles/mocap4r2_marker_viz_srvs__rosidl_generator_c.dir/rosidl_generator_c/mocap4r2_marker_viz_srvs/srv/detail/reset_marker_color__description.c.o[0m
+[1.877s] [ 18%] [32mBuilding C object CMakeFiles/mocap4r2_marker_viz_srvs__rosidl_generator_c.dir/rosidl_generator_c/mocap4r2_marker_viz_srvs/srv/detail/reset_marker_color__functions.c.o[0m
+[1.877s] [ 20%] [32mBuilding C object CMakeFiles/mocap4r2_marker_viz_srvs__rosidl_generator_c.dir/rosidl_generator_c/mocap4r2_marker_viz_srvs/srv/detail/reset_marker_color__type_support.c.o[0m
+[1.916s] [ 22%] [1m[32mLinking C shared library libmocap4r2_marker_viz_srvs__rosidl_generator_c.so[0m
+[1.934s] [ 22%] Built target mocap4r2_marker_viz_srvs__rosidl_generator_c
+[1.938s] [ 25%] [1m[34mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.938s] [ 27%] [1m[34mGenerating C type support for eProsima Fast-RTPS[0m
+[1.938s] [ 31%] [1m[34mGenerating C++ introspection for ROS interfaces[0m
+[1.938s] [ 31%] [1m[34mGenerating C introspection for ROS interfaces[0m
+[1.938s] [ 34%] [1m[34mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.938s] [ 36%] [1m[34mGenerating C type support dispatch for ROS interfaces[0m
+[2.078s] [ 38%] [32mBuilding CXX object CMakeFiles/mocap4r2_marker_viz_srvs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mocap4r2_marker_viz_srvs/srv/set_marker_color__type_support.cpp.o[0m
+[2.079s] [ 40%] [32mBuilding CXX object CMakeFiles/mocap4r2_marker_viz_srvs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mocap4r2_marker_viz_srvs/srv/reset_marker_color__type_support.cpp.o[0m
+[2.080s] [ 43%] [32mBuilding CXX object CMakeFiles/mocap4r2_marker_viz_srvs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mocap4r2_marker_viz_srvs/srv/set_marker_color__type_support.cpp.o[0m
+[2.082s] [ 45%] [32mBuilding CXX object CMakeFiles/mocap4r2_marker_viz_srvs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mocap4r2_marker_viz_srvs/srv/reset_marker_color__type_support.cpp.o[0m
+[2.129s] [ 47%] [32mBuilding CXX object CMakeFiles/mocap4r2_marker_viz_srvs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mocap4r2_marker_viz_srvs/srv/detail/set_marker_color__type_support.cpp.o[0m
+[2.130s] [ 50%] [1m[32mLinking CXX shared library libmocap4r2_marker_viz_srvs__rosidl_typesupport_c.so[0m
+[2.132s] [ 52%] [32mBuilding CXX object CMakeFiles/mocap4r2_marker_viz_srvs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mocap4r2_marker_viz_srvs/srv/detail/reset_marker_color__type_support.cpp.o[0m
+[2.142s] [ 54%] [32mBuilding C object CMakeFiles/mocap4r2_marker_viz_srvs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mocap4r2_marker_viz_srvs/srv/detail/set_marker_color__type_support.c.o[0m
+[2.142s] [ 56%] [32mBuilding C object CMakeFiles/mocap4r2_marker_viz_srvs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mocap4r2_marker_viz_srvs/srv/detail/reset_marker_color__type_support.c.o[0m
+[2.158s] [ 59%] [32mBuilding CXX object CMakeFiles/mocap4r2_marker_viz_srvs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mocap4r2_marker_viz_srvs/srv/detail/dds_fastrtps/set_marker_color__type_support.cpp.o[0m
+[2.158s] [ 61%] Built target mocap4r2_marker_viz_srvs__rosidl_typesupport_c
+[2.158s] [ 61%] [32mBuilding CXX object CMakeFiles/mocap4r2_marker_viz_srvs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mocap4r2_marker_viz_srvs/srv/detail/dds_fastrtps/reset_marker_color__type_support.cpp.o[0m
+[2.164s] [ 65%] [32mBuilding CXX object CMakeFiles/mocap4r2_marker_viz_srvs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mocap4r2_marker_viz_srvs/srv/detail/reset_marker_color__type_support_c.cpp.o[0m
+[2.165s] [ 65%] [32mBuilding CXX object CMakeFiles/mocap4r2_marker_viz_srvs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mocap4r2_marker_viz_srvs/srv/detail/set_marker_color__type_support_c.cpp.o[0m
+[2.175s] [ 68%] [1m[32mLinking C shared library libmocap4r2_marker_viz_srvs__rosidl_typesupport_introspection_c.so[0m
+[2.199s] [ 68%] Built target mocap4r2_marker_viz_srvs__rosidl_typesupport_introspection_c
+[2.376s] [ 70%] [1m[32mLinking CXX shared library libmocap4r2_marker_viz_srvs__rosidl_typesupport_cpp.so[0m
+[2.399s] [ 72%] [1m[32mLinking CXX shared library libmocap4r2_marker_viz_srvs__rosidl_typesupport_introspection_cpp.so[0m
+[2.433s] [ 72%] Built target mocap4r2_marker_viz_srvs__rosidl_typesupport_cpp
+[2.484s] [ 75%] [1m[32mLinking CXX shared library libmocap4r2_marker_viz_srvs__rosidl_typesupport_fastrtps_c.so[0m
+[2.523s] [ 75%] Built target mocap4r2_marker_viz_srvs__rosidl_typesupport_fastrtps_c
+[2.530s] [ 75%] Built target mocap4r2_marker_viz_srvs__rosidl_typesupport_introspection_cpp
+[2.597s] [ 77%] [1m[32mLinking CXX shared library libmocap4r2_marker_viz_srvs__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.656s] [ 77%] Built target mocap4r2_marker_viz_srvs__rosidl_typesupport_fastrtps_cpp
+[2.668s] [ 77%] Built target mocap4r2_marker_viz_srvs
+[2.682s] [ 79%] [1m[34mGenerating Python code for ROS interfaces[0m
+[2.898s] [ 79%] Built target mocap4r2_marker_viz_srvs__py
+[2.905s] [ 84%] [32mBuilding C object CMakeFiles/mocap4r2_marker_viz_srvs__rosidl_generator_py.dir/rosidl_generator_py/mocap4r2_marker_viz_srvs/srv/_set_marker_color_s.c.o[0m
+[2.905s] [ 84%] [32mBuilding C object CMakeFiles/mocap4r2_marker_viz_srvs__rosidl_generator_py.dir/rosidl_generator_py/mocap4r2_marker_viz_srvs/srv/_reset_marker_color_s.c.o[0m
+[2.974s] [ 86%] [1m[32mLinking C shared library libmocap4r2_marker_viz_srvs__rosidl_generator_py.so[0m
+[2.992s] [ 86%] Built target mocap4r2_marker_viz_srvs__rosidl_generator_py
+[2.999s] [ 88%] [32mBuilding C object CMakeFiles/mocap4r2_marker_viz_srvs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/mocap4r2_marker_viz_srvs/_mocap4r2_marker_viz_srvs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.999s] [ 90%] [32mBuilding C object CMakeFiles/mocap4r2_marker_viz_srvs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/mocap4r2_marker_viz_srvs/_mocap4r2_marker_viz_srvs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.999s] [ 93%] [32mBuilding C object CMakeFiles/mocap4r2_marker_viz_srvs_s__rosidl_typesupport_c.dir/rosidl_generator_py/mocap4r2_marker_viz_srvs/_mocap4r2_marker_viz_srvs_s.ep.rosidl_typesupport_c.c.o[0m
+[3.051s] [ 95%] [1m[32mLinking C shared module rosidl_generator_py/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs_s__rosidl_typesupport_c.so[0m
+[3.052s] [ 97%] [1m[32mLinking C shared module rosidl_generator_py/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs_s__rosidl_typesupport_introspection_c.so[0m
+[3.053s] [100%] [1m[32mLinking C shared module rosidl_generator_py/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs_s__rosidl_typesupport_fastrtps_c.so[0m
+[3.063s] [100%] Built target mocap4r2_marker_viz_srvs_s__rosidl_typesupport_c
+[3.063s] [100%] Built target mocap4r2_marker_viz_srvs_s__rosidl_typesupport_introspection_c
+[3.065s] [100%] Built target mocap4r2_marker_viz_srvs_s__rosidl_typesupport_fastrtps_c
+[3.070s] Invoked command in '/home/nl455/mocap_ws/build/mocap4r2_marker_viz_srvs' returned '0': CMAKE_PREFIX_PATH=/home/nl455/miniconda3/envs/ros_env CONDA_PROMPT_MODIFIER=(ros_env) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /home/nl455/miniconda3/envs/ros_env/bin/cmake --build /home/nl455/mocap_ws/build/mocap4r2_marker_viz_srvs -- -j32 -l32
+[3.071s] Invoking command in '/home/nl455/mocap_ws/build/mocap4r2_marker_viz_srvs': CMAKE_PREFIX_PATH=/home/nl455/miniconda3/envs/ros_env CONDA_PROMPT_MODIFIER=(ros_env) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /home/nl455/miniconda3/envs/ros_env/bin/cmake --install /home/nl455/mocap_ws/build/mocap4r2_marker_viz_srvs
+[3.073s] -- Install configuration: ""
+[3.073s] -- Execute custom install script
+[3.073s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/share/ament_index/resource_index/rosidl_interfaces/mocap4r2_marker_viz_srvs
+[3.076s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/srv/SetMarkerColor.json
+[3.079s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/srv/ResetMarkerColor.json
+[3.081s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/msg/rosidl_generator_c__visibility_control.h
+[3.084s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/reset_marker_color__functions.h
+[3.086s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/reset_marker_color__struct.h
+[3.089s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/reset_marker_color__type_support.h
+[3.091s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/set_marker_color__functions.h
+[3.093s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/set_marker_color__struct.h
+[3.096s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/set_marker_color__type_support.h
+[3.098s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/reset_marker_color.h
+[3.101s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/set_marker_color.h
+[3.103s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/environment/library_path.sh
+[3.106s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/environment/library_path.dsv
+[3.109s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.112s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/reset_marker_color__rosidl_typesupport_fastrtps_c.h
+[3.114s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/set_marker_color__rosidl_typesupport_fastrtps_c.h
+[3.117s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.120s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/reset_marker_color__rosidl_typesupport_introspection_c.h
+[3.122s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/set_marker_color__rosidl_typesupport_introspection_c.h
+[3.125s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.127s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/reset_marker_color__builder.hpp
+[3.130s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/reset_marker_color__struct.hpp
+[3.132s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/reset_marker_color__traits.hpp
+[3.135s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/reset_marker_color__type_support.hpp
+[3.138s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/set_marker_color__builder.hpp
+[3.140s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/set_marker_color__struct.hpp
+[3.143s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/set_marker_color__traits.hpp
+[3.145s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/set_marker_color__type_support.hpp
+[3.148s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/reset_marker_color.hpp
+[3.151s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/set_marker_color.hpp
+[3.153s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.156s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/reset_marker_color__rosidl_typesupport_fastrtps_cpp.hpp
+[3.158s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/set_marker_color__rosidl_typesupport_fastrtps_cpp.hpp
+[3.161s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/reset_marker_color__rosidl_typesupport_introspection_cpp.hpp
+[3.164s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/set_marker_color__rosidl_typesupport_introspection_cpp.hpp
+[3.166s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/environment/pythonpath.sh
+[3.169s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/environment/pythonpath.dsv
+[3.172s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs-0.0.7-py3.12.egg-info/PKG-INFO
+[3.174s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs-0.0.7-py3.12.egg-info/SOURCES.txt
+[3.177s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs-0.0.7-py3.12.egg-info/dependency_links.txt
+[3.179s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs-0.0.7-py3.12.egg-info/top_level.txt
+[3.182s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs/__init__.py
+[3.185s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs/_mocap4r2_marker_viz_srvs_s.ep.rosidl_typesupport_c.c
+[3.188s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs/_mocap4r2_marker_viz_srvs_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.191s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs/_mocap4r2_marker_viz_srvs_s.ep.rosidl_typesupport_introspection_c.c
+[3.193s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs_s__rosidl_typesupport_c.so
+[3.196s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs_s__rosidl_typesupport_fastrtps_c.so
+[3.198s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs_s__rosidl_typesupport_introspection_c.so
+[3.202s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs/srv/__init__.py
+[3.205s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs/srv/_reset_marker_color.py
+[3.207s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs/srv/_reset_marker_color_s.c
+[3.211s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs/srv/_set_marker_color.py
+[3.214s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs/srv/_set_marker_color_s.c
+[3.216s] -- Up-to-date symlink: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs_s__rosidl_typesupport_fastrtps_c.so
+[3.216s] -- Up-to-date symlink: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs_s__rosidl_typesupport_introspection_c.so
+[3.216s] -- Up-to-date symlink: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs_s__rosidl_typesupport_c.so
+[3.217s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/srv/SetMarkerColor.idl
+[3.219s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/srv/ResetMarkerColor.idl
+[3.222s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/srv/SetMarkerColor.srv
+[3.225s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/srv/ResetMarkerColor.srv
+[3.228s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/share/ament_index/resource_index/package_run_dependencies/mocap4r2_marker_viz_srvs
+[3.231s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/share/ament_index/resource_index/parent_prefix_path/mocap4r2_marker_viz_srvs
+[3.233s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/environment/ament_prefix_path.sh
+[3.236s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/environment/ament_prefix_path.dsv
+[3.239s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/environment/path.sh
+[3.241s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/environment/path.dsv
+[3.244s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/local_setup.bash
+[3.247s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/local_setup.sh
+[3.249s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/local_setup.zsh
+[3.253s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/local_setup.dsv
+[3.257s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/package.dsv
+[3.260s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/share/ament_index/resource_index/packages/mocap4r2_marker_viz_srvs
+[3.262s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/cmake/rosidl_cmake-extras.cmake
+[3.266s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.270s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.274s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/cmake/ament_cmake_export_libraries-extras.cmake
+[3.277s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/cmake/ament_cmake_export_targets-extras.cmake
+[3.281s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.284s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.286s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/cmake/mocap4r2_marker_viz_srvsConfig.cmake
+[3.289s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/cmake/mocap4r2_marker_viz_srvsConfig-version.cmake
+[3.291s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/package.xml
+[3.294s] -- Installing: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/lib/libmocap4r2_marker_viz_srvs__rosidl_generator_c.so
+[3.294s] -- Set non-toolchain portion of runtime path of "/home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/lib/libmocap4r2_marker_viz_srvs__rosidl_generator_c.so" to ""
+[3.294s] -- Installing: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/lib/libmocap4r2_marker_viz_srvs__rosidl_typesupport_fastrtps_c.so
+[3.294s] -- Set non-toolchain portion of runtime path of "/home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/lib/libmocap4r2_marker_viz_srvs__rosidl_typesupport_fastrtps_c.so" to ""
+[3.295s] -- Installing: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/lib/libmocap4r2_marker_viz_srvs__rosidl_typesupport_introspection_c.so
+[3.295s] -- Set non-toolchain portion of runtime path of "/home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/lib/libmocap4r2_marker_viz_srvs__rosidl_typesupport_introspection_c.so" to ""
+[3.295s] -- Installing: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/lib/libmocap4r2_marker_viz_srvs__rosidl_typesupport_c.so
+[3.295s] -- Set non-toolchain portion of runtime path of "/home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/lib/libmocap4r2_marker_viz_srvs__rosidl_typesupport_c.so" to ""
+[3.295s] -- Installing: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/lib/libmocap4r2_marker_viz_srvs__rosidl_typesupport_fastrtps_cpp.so
+[3.295s] -- Set non-toolchain portion of runtime path of "/home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/lib/libmocap4r2_marker_viz_srvs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.295s] -- Installing: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/lib/libmocap4r2_marker_viz_srvs__rosidl_typesupport_introspection_cpp.so
+[3.295s] -- Set non-toolchain portion of runtime path of "/home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/lib/libmocap4r2_marker_viz_srvs__rosidl_typesupport_introspection_cpp.so" to ""
+[3.295s] -- Installing: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/lib/libmocap4r2_marker_viz_srvs__rosidl_typesupport_cpp.so
+[3.295s] -- Set non-toolchain portion of runtime path of "/home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/lib/libmocap4r2_marker_viz_srvs__rosidl_typesupport_cpp.so" to ""
+[3.317s] Listing '/home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs'...
+[3.317s] Compiling '/home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs/__init__.py'...
+[3.317s] Listing '/home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs/srv'...
+[3.317s] Compiling '/home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs/srv/__init__.py'...
+[3.317s] Compiling '/home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs/srv/_reset_marker_color.py'...
+[3.317s] Compiling '/home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs/srv/_set_marker_color.py'...
+[3.320s] -- Installing: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/lib/libmocap4r2_marker_viz_srvs__rosidl_generator_py.so
+[3.320s] -- Set non-toolchain portion of runtime path of "/home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/lib/libmocap4r2_marker_viz_srvs__rosidl_generator_py.so" to ""
+[3.320s] -- Installing: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/cmake/export_mocap4r2_marker_viz_srvs__rosidl_generator_cExport.cmake
+[3.320s] -- Installing: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/cmake/export_mocap4r2_marker_viz_srvs__rosidl_generator_cExport-noconfig.cmake
+[3.320s] -- Installing: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/cmake/export_mocap4r2_marker_viz_srvs__rosidl_typesupport_fastrtps_cExport.cmake
+[3.320s] -- Installing: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/cmake/export_mocap4r2_marker_viz_srvs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.320s] -- Installing: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/cmake/mocap4r2_marker_viz_srvs__rosidl_typesupport_introspection_cExport.cmake
+[3.320s] -- Installing: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/cmake/mocap4r2_marker_viz_srvs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.320s] -- Installing: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/cmake/mocap4r2_marker_viz_srvs__rosidl_typesupport_cExport.cmake
+[3.320s] -- Installing: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/cmake/mocap4r2_marker_viz_srvs__rosidl_typesupport_cExport-noconfig.cmake
+[3.320s] -- Installing: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/cmake/export_mocap4r2_marker_viz_srvs__rosidl_generator_cppExport.cmake
+[3.320s] -- Installing: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/cmake/export_mocap4r2_marker_viz_srvs__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.320s] -- Installing: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/cmake/export_mocap4r2_marker_viz_srvs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.320s] -- Installing: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/cmake/mocap4r2_marker_viz_srvs__rosidl_typesupport_introspection_cppExport.cmake
+[3.320s] -- Installing: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/cmake/mocap4r2_marker_viz_srvs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.320s] -- Installing: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/cmake/mocap4r2_marker_viz_srvs__rosidl_typesupport_cppExport.cmake
+[3.320s] -- Installing: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/cmake/mocap4r2_marker_viz_srvs__rosidl_typesupport_cppExport-noconfig.cmake
+[3.320s] -- Installing: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/cmake/export_mocap4r2_marker_viz_srvs__rosidl_generator_pyExport.cmake
+[3.320s] -- Installing: /home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/cmake/export_mocap4r2_marker_viz_srvs__rosidl_generator_pyExport-noconfig.cmake
+[3.322s] Invoked command in '/home/nl455/mocap_ws/build/mocap4r2_marker_viz_srvs' returned '0': CMAKE_PREFIX_PATH=/home/nl455/miniconda3/envs/ros_env CONDA_PROMPT_MODIFIER=(ros_env) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /home/nl455/miniconda3/envs/ros_env/bin/cmake --install /home/nl455/mocap_ws/build/mocap4r2_marker_viz_srvs

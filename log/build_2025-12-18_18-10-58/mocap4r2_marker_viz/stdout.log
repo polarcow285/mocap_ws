@@ -1,0 +1,24 @@
+[ 50%] Built target mocap4r2_marker_viz_NODE
+[ 75%] [1m[32mLinking CXX executable mocap4r2_marker_viz[0m
+[100%] Built target mocap4r2_marker_viz
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz/lib/libmocap4r2_marker_viz_NODE.a
+-- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz/lib/mocap4r2_marker_viz/mocap4r2_marker_viz
+-- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/launch/mocap4r2_marker_viz.launch.py
+-- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/rviz/config.rviz
+-- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz/share/ament_index/resource_index/package_run_dependencies/mocap4r2_marker_viz
+-- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz/share/ament_index/resource_index/parent_prefix_path/mocap4r2_marker_viz
+-- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/environment/ament_prefix_path.sh
+-- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/environment/ament_prefix_path.dsv
+-- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/environment/path.sh
+-- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/environment/path.dsv
+-- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/local_setup.bash
+-- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/local_setup.sh
+-- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/local_setup.zsh
+-- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/local_setup.dsv
+-- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/package.dsv
+-- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz/share/ament_index/resource_index/packages/mocap4r2_marker_viz
+-- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/cmake/mocap4r2_marker_vizConfig.cmake
+-- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/cmake/mocap4r2_marker_vizConfig-version.cmake
+-- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/package.xml

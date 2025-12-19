@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/nl455/mocap_ws/src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_publisher" FILES "/home/nl455/mocap_ws/build/mocap4r2_marker_publisher/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/mocap4r2_marker_publisher")

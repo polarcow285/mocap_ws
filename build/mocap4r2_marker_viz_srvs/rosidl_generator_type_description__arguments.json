@@ -1,0 +1,13 @@
+{
+  "package_name": "mocap4r2_marker_viz_srvs",
+  "output_dir": "/home/nl455/mocap_ws/build/mocap4r2_marker_viz_srvs/rosidl_generator_type_description/mocap4r2_marker_viz_srvs",
+  "idl_tuples": [
+    "/home/nl455/mocap_ws/build/mocap4r2_marker_viz_srvs/rosidl_adapter/mocap4r2_marker_viz_srvs:srv/SetMarkerColor.idl",
+    "/home/nl455/mocap_ws/build/mocap4r2_marker_viz_srvs/rosidl_adapter/mocap4r2_marker_viz_srvs:srv/ResetMarkerColor.idl"
+  ],
+  "include_paths": [
+    "std_msgs:/home/nl455/miniconda3/envs/ros_env/share/std_msgs",
+    "builtin_interfaces:/home/nl455/miniconda3/envs/ros_env/share/builtin_interfaces",
+    "service_msgs:/home/nl455/miniconda3/envs/ros_env/share/service_msgs"
+  ]
+}

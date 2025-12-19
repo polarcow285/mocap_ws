@@ -1,0 +1,147 @@
+[0.018s] Invoking command in '/home/nl455/mocap_ws/build/mocap4r2_control': CMAKE_PREFIX_PATH=/home/nl455/mocap_ws/install/mocap4r2_control_msgs:/home/nl455/mocap_ws/install/rqt_mocap4r2_control:/home/nl455/mocap_ws/install/mocap4r2_robot_gt:/home/nl455/mocap_ws/install/mocap4r2_robot_gt_msgs:/home/nl455/mocap_ws/install/mocap4r2_optitrack_driver:/home/nl455/mocap_ws/install/mocap4r2_marker_viz:/home/nl455/mocap_ws/install/mocap4r2_marker_publisher:/home/nl455/mocap_ws/install/mocap4r2_dummy_driver:/home/nl455/mocap_ws/install/mocap4r2_msgs:/home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs:/home/nl455/mocap_ws/install/mocap4r2_control:/home/nl455/mocap_ws/install/mocap4r2cli:/home/nl455/miniconda3/envs/ros_env CONDA_PROMPT_MODIFIER=(ros_env) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nl455/mocap_ws/install/mocap4r2_control_msgs/lib:/home/nl455/mocap_ws/install/rqt_mocap4r2_control/lib:/home/nl455/mocap_ws/install/mocap4r2_robot_gt/lib:/home/nl455/mocap_ws/install/mocap4r2_robot_gt_msgs/lib:/home/nl455/mocap_ws/install/mocap4r2_optitrack_driver/lib:/home/nl455/mocap_ws/install/mocap4r2_msgs/lib:/home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/lib:/home/nl455/mocap_ws/install/mocap4r2_control/lib:/home/nl455/miniconda3/envs/ros_env/opt/rviz_ogre_vendor/lib:/home/nl455/miniconda3/envs/ros_env/lib PYTHONPATH=/home/nl455/mocap_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages:/home/nl455/mocap_ws/install/mocap4r2cli/lib/python3.12/site-packages:/home/nl455/mocap_ws/install/mocap4r2_robot_gt_msgs/lib/python3.12/site-packages:/home/nl455/mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages:/home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages:/home/nl455/miniconda3/envs/ros_env/lib/python/site-packages:/home/nl455/miniconda3/envs/ros_env/lib/python3.12/site-packages /home/nl455/miniconda3/envs/ros_env/bin/cmake /home/nl455/mocap_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nl455/mocap_ws/install/mocap4r2_control
+[0.022s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.022s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.022s]   CMake.
+[0.022s] 
+[0.022s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.022s]   to tell CMake that the project requires at least <min> but has been updated
+[0.022s]   to work with policies introduced by <max> or earlier.
+[0.022s] 
+[0.022s] [0m
+[0.025s] -- Found ament_cmake: 2.7.3 (/home/nl455/miniconda3/envs/ros_env/share/ament_cmake/cmake)
+[0.117s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.121s] -- Found rclcpp: 29.5.3 (/home/nl455/miniconda3/envs/ros_env/share/rclcpp/cmake)
+[0.135s] -- Found rosidl_generator_c: 4.9.5 (/home/nl455/miniconda3/envs/ros_env/share/rosidl_generator_c/cmake)
+[0.139s] -- Found rosidl_generator_cpp: 4.9.5 (/home/nl455/miniconda3/envs/ros_env/share/rosidl_generator_cpp/cmake)
+[0.145s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.153s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.190s] -- Found rmw_implementation_cmake: 7.8.2 (/home/nl455/miniconda3/envs/ros_env/share/rmw_implementation_cmake/cmake)
+[0.191s] -- Found rmw_fastrtps_cpp: 9.3.3 (/home/nl455/miniconda3/envs/ros_env/share/rmw_fastrtps_cpp/cmake)
+[0.223s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.260s] -- Found rclcpp_lifecycle: 29.5.3 (/home/nl455/miniconda3/envs/ros_env/share/rclcpp_lifecycle/cmake)
+[0.277s] -- Found mocap4r2_control_msgs: 0.0.7 (/home/nl455/mocap_ws/install/mocap4r2_control_msgs/share/mocap4r2_control_msgs/cmake)
+[0.306s] [0mCMake Deprecation Warning at /home/nl455/miniconda3/envs/ros_env/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+[0.306s]   ament_target_dependencies() is deprecated.  Use target_link_libraries()
+[0.306s]   with modern CMake targets instead.  Try replacing this call with:
+[0.306s] 
+[0.306s]     target_link_libraries(mocap4r2_control PUBLIC
+[0.306s]       ${mocap4r2_control_msgs_TARGETS}
+[0.306s]       rclcpp::rclcpp
+[0.306s]       rclcpp_lifecycle::rclcpp_lifecycle
+[0.306s]     )
+[0.306s] 
+[0.306s] Call Stack (most recent call first):
+[0.306s]   CMakeLists.txt:37 (ament_target_dependencies)
+[0.306s] 
+[0.306s] [0m
+[0.307s] [0mCMake Deprecation Warning at /home/nl455/miniconda3/envs/ros_env/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+[0.307s]   ament_target_dependencies() is deprecated.  Use target_link_libraries()
+[0.307s]   with modern CMake targets instead.  Try replacing this call with:
+[0.307s] 
+[0.307s]     target_link_libraries(auxiliar_main PUBLIC
+[0.307s]       ${mocap4r2_control_msgs_TARGETS}
+[0.307s]       rclcpp::rclcpp
+[0.307s]       rclcpp_lifecycle::rclcpp_lifecycle
+[0.307s]     )
+[0.307s] 
+[0.307s] Call Stack (most recent call first):
+[0.307s]   CMakeLists.txt:40 (ament_target_dependencies)
+[0.307s] 
+[0.307s] [0m
+[0.308s] -- Found ament_lint_auto: 0.19.2 (/home/nl455/miniconda3/envs/ros_env/share/ament_lint_auto/cmake)
+[0.356s] -- Found gtest sources under '/home/nl455/miniconda3/envs/ros_env/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.356s] [0mCMake Deprecation Warning at /home/nl455/miniconda3/envs/ros_env/src/gtest_vendor/CMakeLists.txt:2 (cmake_minimum_required):
+[0.356s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.356s]   CMake.
+[0.356s] 
+[0.356s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.356s]   to tell CMake that the project requires at least <min> but has been updated
+[0.356s]   to work with policies introduced by <max> or earlier.
+[0.356s] 
+[0.356s] [0m
+[0.358s] [0mCMake Deprecation Warning at /home/nl455/miniconda3/envs/ros_env/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+[0.358s]   ament_target_dependencies() is deprecated.  Use target_link_libraries()
+[0.358s]   with modern CMake targets instead.  Try replacing this call with:
+[0.358s] 
+[0.358s]     target_link_libraries(test_control PUBLIC
+[0.358s]       ${mocap4r2_control_msgs_TARGETS}
+[0.358s]       ${std_msgs_TARGETS}
+[0.358s]       rclcpp::rclcpp
+[0.358s]       rclcpp_lifecycle::rclcpp_lifecycle
+[0.358s]     )
+[0.358s] 
+[0.358s] Call Stack (most recent call first):
+[0.358s]   test/CMakeLists.txt:3 (ament_target_dependencies)
+[0.358s] 
+[0.358s] [0m
+[0.360s] [0mCMake Deprecation Warning at /home/nl455/miniconda3/envs/ros_env/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+[0.360s]   ament_target_dependencies() is deprecated.  Use target_link_libraries()
+[0.360s]   with modern CMake targets instead.  Try replacing this call with:
+[0.360s] 
+[0.360s]     target_link_libraries(test_auxiliar PUBLIC
+[0.360s]       ${mocap4r2_control_msgs_TARGETS}
+[0.360s]       ${std_msgs_TARGETS}
+[0.360s]       rclcpp::rclcpp
+[0.360s]       rclcpp_lifecycle::rclcpp_lifecycle
+[0.360s]     )
+[0.360s] 
+[0.360s] Call Stack (most recent call first):
+[0.360s]   test/CMakeLists.txt:7 (ament_target_dependencies)
+[0.360s] 
+[0.360s] [0m
+[0.363s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.364s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.364s] -- Configured cppcheck include dirs: /home/nl455/mocap_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control/include
+[0.364s] -- Configured cppcheck exclude dirs and/or files: 
+[0.364s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.364s] -- Configured cpplint exclude dirs and/or files: 
+[0.365s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.365s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.365s] -- Added test 'lint_cmake' to check CMake code style
+[0.365s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.365s] -- Added test 'uncrustify' to check C / C++ code style
+[0.365s] -- Configured uncrustify additional arguments: 
+[0.365s] -- Added test 'xmllint' to check XML markup files
+[0.366s] -- Configuring done (0.3s)
+[0.382s] -- Generating done (0.0s)
+[0.395s] -- Build files have been written to: /home/nl455/mocap_ws/build/mocap4r2_control
+[0.402s] Invoked command in '/home/nl455/mocap_ws/build/mocap4r2_control' returned '0': CMAKE_PREFIX_PATH=/home/nl455/mocap_ws/install/mocap4r2_control_msgs:/home/nl455/mocap_ws/install/rqt_mocap4r2_control:/home/nl455/mocap_ws/install/mocap4r2_robot_gt:/home/nl455/mocap_ws/install/mocap4r2_robot_gt_msgs:/home/nl455/mocap_ws/install/mocap4r2_optitrack_driver:/home/nl455/mocap_ws/install/mocap4r2_marker_viz:/home/nl455/mocap_ws/install/mocap4r2_marker_publisher:/home/nl455/mocap_ws/install/mocap4r2_dummy_driver:/home/nl455/mocap_ws/install/mocap4r2_msgs:/home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs:/home/nl455/mocap_ws/install/mocap4r2_control:/home/nl455/mocap_ws/install/mocap4r2cli:/home/nl455/miniconda3/envs/ros_env CONDA_PROMPT_MODIFIER=(ros_env) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nl455/mocap_ws/install/mocap4r2_control_msgs/lib:/home/nl455/mocap_ws/install/rqt_mocap4r2_control/lib:/home/nl455/mocap_ws/install/mocap4r2_robot_gt/lib:/home/nl455/mocap_ws/install/mocap4r2_robot_gt_msgs/lib:/home/nl455/mocap_ws/install/mocap4r2_optitrack_driver/lib:/home/nl455/mocap_ws/install/mocap4r2_msgs/lib:/home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/lib:/home/nl455/mocap_ws/install/mocap4r2_control/lib:/home/nl455/miniconda3/envs/ros_env/opt/rviz_ogre_vendor/lib:/home/nl455/miniconda3/envs/ros_env/lib PYTHONPATH=/home/nl455/mocap_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages:/home/nl455/mocap_ws/install/mocap4r2cli/lib/python3.12/site-packages:/home/nl455/mocap_ws/install/mocap4r2_robot_gt_msgs/lib/python3.12/site-packages:/home/nl455/mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages:/home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages:/home/nl455/miniconda3/envs/ros_env/lib/python/site-packages:/home/nl455/miniconda3/envs/ros_env/lib/python3.12/site-packages /home/nl455/miniconda3/envs/ros_env/bin/cmake /home/nl455/mocap_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nl455/mocap_ws/install/mocap4r2_control
+[0.403s] Invoking command in '/home/nl455/mocap_ws/build/mocap4r2_control': CMAKE_PREFIX_PATH=/home/nl455/mocap_ws/install/mocap4r2_control_msgs:/home/nl455/mocap_ws/install/rqt_mocap4r2_control:/home/nl455/mocap_ws/install/mocap4r2_robot_gt:/home/nl455/mocap_ws/install/mocap4r2_robot_gt_msgs:/home/nl455/mocap_ws/install/mocap4r2_optitrack_driver:/home/nl455/mocap_ws/install/mocap4r2_marker_viz:/home/nl455/mocap_ws/install/mocap4r2_marker_publisher:/home/nl455/mocap_ws/install/mocap4r2_dummy_driver:/home/nl455/mocap_ws/install/mocap4r2_msgs:/home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs:/home/nl455/mocap_ws/install/mocap4r2_control:/home/nl455/mocap_ws/install/mocap4r2cli:/home/nl455/miniconda3/envs/ros_env CONDA_PROMPT_MODIFIER=(ros_env) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nl455/mocap_ws/install/mocap4r2_control_msgs/lib:/home/nl455/mocap_ws/install/rqt_mocap4r2_control/lib:/home/nl455/mocap_ws/install/mocap4r2_robot_gt/lib:/home/nl455/mocap_ws/install/mocap4r2_robot_gt_msgs/lib:/home/nl455/mocap_ws/install/mocap4r2_optitrack_driver/lib:/home/nl455/mocap_ws/install/mocap4r2_msgs/lib:/home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/lib:/home/nl455/mocap_ws/install/mocap4r2_control/lib:/home/nl455/miniconda3/envs/ros_env/opt/rviz_ogre_vendor/lib:/home/nl455/miniconda3/envs/ros_env/lib PYTHONPATH=/home/nl455/mocap_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages:/home/nl455/mocap_ws/install/mocap4r2cli/lib/python3.12/site-packages:/home/nl455/mocap_ws/install/mocap4r2_robot_gt_msgs/lib/python3.12/site-packages:/home/nl455/mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages:/home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages:/home/nl455/miniconda3/envs/ros_env/lib/python/site-packages:/home/nl455/miniconda3/envs/ros_env/lib/python3.12/site-packages /home/nl455/miniconda3/envs/ros_env/bin/cmake --build /home/nl455/mocap_ws/build/mocap4r2_control -- -j32 -l32
+[0.423s] [ 14%] Built target gtest_main
+[0.423s] [ 28%] Built target gtest
+[0.429s] [ 57%] Built target mocap4r2_control
+[0.440s] [ 78%] Built target auxiliar_main
+[0.440s] [ 85%] Built target test_auxiliar
+[0.441s] [100%] Built target test_control
+[0.444s] Invoked command in '/home/nl455/mocap_ws/build/mocap4r2_control' returned '0': CMAKE_PREFIX_PATH=/home/nl455/mocap_ws/install/mocap4r2_control_msgs:/home/nl455/mocap_ws/install/rqt_mocap4r2_control:/home/nl455/mocap_ws/install/mocap4r2_robot_gt:/home/nl455/mocap_ws/install/mocap4r2_robot_gt_msgs:/home/nl455/mocap_ws/install/mocap4r2_optitrack_driver:/home/nl455/mocap_ws/install/mocap4r2_marker_viz:/home/nl455/mocap_ws/install/mocap4r2_marker_publisher:/home/nl455/mocap_ws/install/mocap4r2_dummy_driver:/home/nl455/mocap_ws/install/mocap4r2_msgs:/home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs:/home/nl455/mocap_ws/install/mocap4r2_control:/home/nl455/mocap_ws/install/mocap4r2cli:/home/nl455/miniconda3/envs/ros_env CONDA_PROMPT_MODIFIER=(ros_env) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nl455/mocap_ws/install/mocap4r2_control_msgs/lib:/home/nl455/mocap_ws/install/rqt_mocap4r2_control/lib:/home/nl455/mocap_ws/install/mocap4r2_robot_gt/lib:/home/nl455/mocap_ws/install/mocap4r2_robot_gt_msgs/lib:/home/nl455/mocap_ws/install/mocap4r2_optitrack_driver/lib:/home/nl455/mocap_ws/install/mocap4r2_msgs/lib:/home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/lib:/home/nl455/mocap_ws/install/mocap4r2_control/lib:/home/nl455/miniconda3/envs/ros_env/opt/rviz_ogre_vendor/lib:/home/nl455/miniconda3/envs/ros_env/lib PYTHONPATH=/home/nl455/mocap_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages:/home/nl455/mocap_ws/install/mocap4r2cli/lib/python3.12/site-packages:/home/nl455/mocap_ws/install/mocap4r2_robot_gt_msgs/lib/python3.12/site-packages:/home/nl455/mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages:/home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages:/home/nl455/miniconda3/envs/ros_env/lib/python/site-packages:/home/nl455/miniconda3/envs/ros_env/lib/python3.12/site-packages /home/nl455/miniconda3/envs/ros_env/bin/cmake --build /home/nl455/mocap_ws/build/mocap4r2_control -- -j32 -l32
+[0.445s] Invoking command in '/home/nl455/mocap_ws/build/mocap4r2_control': CMAKE_PREFIX_PATH=/home/nl455/mocap_ws/install/mocap4r2_control_msgs:/home/nl455/mocap_ws/install/rqt_mocap4r2_control:/home/nl455/mocap_ws/install/mocap4r2_robot_gt:/home/nl455/mocap_ws/install/mocap4r2_robot_gt_msgs:/home/nl455/mocap_ws/install/mocap4r2_optitrack_driver:/home/nl455/mocap_ws/install/mocap4r2_marker_viz:/home/nl455/mocap_ws/install/mocap4r2_marker_publisher:/home/nl455/mocap_ws/install/mocap4r2_dummy_driver:/home/nl455/mocap_ws/install/mocap4r2_msgs:/home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs:/home/nl455/mocap_ws/install/mocap4r2_control:/home/nl455/mocap_ws/install/mocap4r2cli:/home/nl455/miniconda3/envs/ros_env CONDA_PROMPT_MODIFIER=(ros_env) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nl455/mocap_ws/install/mocap4r2_control_msgs/lib:/home/nl455/mocap_ws/install/rqt_mocap4r2_control/lib:/home/nl455/mocap_ws/install/mocap4r2_robot_gt/lib:/home/nl455/mocap_ws/install/mocap4r2_robot_gt_msgs/lib:/home/nl455/mocap_ws/install/mocap4r2_optitrack_driver/lib:/home/nl455/mocap_ws/install/mocap4r2_msgs/lib:/home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/lib:/home/nl455/mocap_ws/install/mocap4r2_control/lib:/home/nl455/miniconda3/envs/ros_env/opt/rviz_ogre_vendor/lib:/home/nl455/miniconda3/envs/ros_env/lib PYTHONPATH=/home/nl455/mocap_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages:/home/nl455/mocap_ws/install/mocap4r2cli/lib/python3.12/site-packages:/home/nl455/mocap_ws/install/mocap4r2_robot_gt_msgs/lib/python3.12/site-packages:/home/nl455/mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages:/home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages:/home/nl455/miniconda3/envs/ros_env/lib/python/site-packages:/home/nl455/miniconda3/envs/ros_env/lib/python3.12/site-packages /home/nl455/miniconda3/envs/ros_env/bin/cmake --install /home/nl455/mocap_ws/build/mocap4r2_control
+[0.449s] -- Install configuration: ""
+[0.449s] -- Execute custom install script
+[0.449s] -- Up-to-date symlink: /home/nl455/mocap_ws/install/mocap4r2_control/include//mocap4r2_control/AuxiliarNode.hpp
+[0.449s] -- Up-to-date symlink: /home/nl455/mocap_ws/install/mocap4r2_control/include//mocap4r2_control/ControlledLifecycleNode.hpp
+[0.449s] -- Up-to-date symlink: /home/nl455/mocap_ws/install/mocap4r2_control/include//mocap4r2_control/ControllerNode.hpp
+[0.449s] -- Up-to-date symlink: /home/nl455/mocap_ws/install/mocap4r2_control/share/mocap4r2_control/config/config_example.yaml
+[0.449s] -- Up-to-date symlink: /home/nl455/mocap_ws/install/mocap4r2_control/share/mocap4r2_control/launch/auxiliar.launch.py
+[0.449s] -- Up-to-date symlink: /home/nl455/mocap_ws/install/mocap4r2_control/lib/libmocap4r2_control.so
+[0.449s] -- Up-to-date symlink: /home/nl455/mocap_ws/install/mocap4r2_control/lib/mocap4r2_control/auxiliar_main
+[0.450s] -- Up-to-date symlink: /home/nl455/mocap_ws/install/mocap4r2_control/share/mocap4r2_control/environment/library_path.sh
+[0.450s] -- Up-to-date symlink: /home/nl455/mocap_ws/install/mocap4r2_control/share/mocap4r2_control/environment/library_path.dsv
+[0.450s] -- Up-to-date symlink: /home/nl455/mocap_ws/install/mocap4r2_control/share/ament_index/resource_index/package_run_dependencies/mocap4r2_control
+[0.450s] -- Up-to-date symlink: /home/nl455/mocap_ws/install/mocap4r2_control/share/ament_index/resource_index/parent_prefix_path/mocap4r2_control
+[0.450s] -- Up-to-date symlink: /home/nl455/mocap_ws/install/mocap4r2_control/share/mocap4r2_control/environment/ament_prefix_path.sh
+[0.450s] -- Up-to-date symlink: /home/nl455/mocap_ws/install/mocap4r2_control/share/mocap4r2_control/environment/ament_prefix_path.dsv
+[0.450s] -- Up-to-date symlink: /home/nl455/mocap_ws/install/mocap4r2_control/share/mocap4r2_control/environment/path.sh
+[0.450s] -- Up-to-date symlink: /home/nl455/mocap_ws/install/mocap4r2_control/share/mocap4r2_control/environment/path.dsv
+[0.450s] -- Up-to-date symlink: /home/nl455/mocap_ws/install/mocap4r2_control/share/mocap4r2_control/local_setup.bash
+[0.450s] -- Up-to-date symlink: /home/nl455/mocap_ws/install/mocap4r2_control/share/mocap4r2_control/local_setup.sh
+[0.450s] -- Up-to-date symlink: /home/nl455/mocap_ws/install/mocap4r2_control/share/mocap4r2_control/local_setup.zsh
+[0.450s] -- Up-to-date symlink: /home/nl455/mocap_ws/install/mocap4r2_control/share/mocap4r2_control/local_setup.dsv
+[0.450s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_control/share/mocap4r2_control/package.dsv
+[0.453s] -- Up-to-date symlink: /home/nl455/mocap_ws/install/mocap4r2_control/share/ament_index/resource_index/packages/mocap4r2_control
+[0.453s] -- Up-to-date symlink: /home/nl455/mocap_ws/install/mocap4r2_control/share/mocap4r2_control/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.453s] -- Up-to-date symlink: /home/nl455/mocap_ws/install/mocap4r2_control/share/mocap4r2_control/cmake/ament_cmake_export_libraries-extras.cmake
+[0.453s] -- Up-to-date symlink: /home/nl455/mocap_ws/install/mocap4r2_control/share/mocap4r2_control/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.453s] -- Up-to-date symlink: /home/nl455/mocap_ws/install/mocap4r2_control/share/mocap4r2_control/cmake/mocap4r2_controlConfig.cmake
+[0.453s] -- Up-to-date symlink: /home/nl455/mocap_ws/install/mocap4r2_control/share/mocap4r2_control/cmake/mocap4r2_controlConfig-version.cmake
+[0.453s] -- Up-to-date symlink: /home/nl455/mocap_ws/install/mocap4r2_control/share/mocap4r2_control/package.xml
+[0.454s] Invoked command in '/home/nl455/mocap_ws/build/mocap4r2_control' returned '0': CMAKE_PREFIX_PATH=/home/nl455/mocap_ws/install/mocap4r2_control_msgs:/home/nl455/mocap_ws/install/rqt_mocap4r2_control:/home/nl455/mocap_ws/install/mocap4r2_robot_gt:/home/nl455/mocap_ws/install/mocap4r2_robot_gt_msgs:/home/nl455/mocap_ws/install/mocap4r2_optitrack_driver:/home/nl455/mocap_ws/install/mocap4r2_marker_viz:/home/nl455/mocap_ws/install/mocap4r2_marker_publisher:/home/nl455/mocap_ws/install/mocap4r2_dummy_driver:/home/nl455/mocap_ws/install/mocap4r2_msgs:/home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs:/home/nl455/mocap_ws/install/mocap4r2_control:/home/nl455/mocap_ws/install/mocap4r2cli:/home/nl455/miniconda3/envs/ros_env CONDA_PROMPT_MODIFIER=(ros_env) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nl455/mocap_ws/install/mocap4r2_control_msgs/lib:/home/nl455/mocap_ws/install/rqt_mocap4r2_control/lib:/home/nl455/mocap_ws/install/mocap4r2_robot_gt/lib:/home/nl455/mocap_ws/install/mocap4r2_robot_gt_msgs/lib:/home/nl455/mocap_ws/install/mocap4r2_optitrack_driver/lib:/home/nl455/mocap_ws/install/mocap4r2_msgs/lib:/home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/lib:/home/nl455/mocap_ws/install/mocap4r2_control/lib:/home/nl455/miniconda3/envs/ros_env/opt/rviz_ogre_vendor/lib:/home/nl455/miniconda3/envs/ros_env/lib PYTHONPATH=/home/nl455/mocap_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages:/home/nl455/mocap_ws/install/mocap4r2cli/lib/python3.12/site-packages:/home/nl455/mocap_ws/install/mocap4r2_robot_gt_msgs/lib/python3.12/site-packages:/home/nl455/mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages:/home/nl455/mocap_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages:/home/nl455/miniconda3/envs/ros_env/lib/python/site-packages:/home/nl455/miniconda3/envs/ros_env/lib/python3.12/site-packages /home/nl455/miniconda3/envs/ros_env/bin/cmake --install /home/nl455/mocap_ws/build/mocap4r2_control

@@ -1,0 +1,142 @@
+[0.005s] Invoking command in '/home/nl455/mocap_ws/build/mocap4r2_control': AMENT_PREFIX_PATH=/home/nl455/mocap_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nl455/mocap_ws/install/mocap4r2_control_msgs:/home/nl455/miniconda3/envs/ros_env CONDA_PROMPT_MODIFIER=(ros_env) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nl455/mocap_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nl455/mocap_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /home/nl455/miniconda3/envs/ros_env/bin/cmake /home/nl455/mocap_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nl455/mocap_ws/install/mocap4r2_control
+[0.011s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.011s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.011s]   CMake.
+[0.011s] 
+[0.011s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.011s]   to tell CMake that the project requires at least <min> but has been updated
+[0.011s]   to work with policies introduced by <max> or earlier.
+[0.011s] 
+[0.011s] [0m
+[0.035s] -- The C compiler identification is GNU 13.3.0
+[0.069s] -- The CXX compiler identification is GNU 13.3.0
+[0.074s] -- Detecting C compiler ABI info
+[0.106s] -- Detecting C compiler ABI info - done
+[0.114s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.115s] -- Detecting C compile features
+[0.115s] -- Detecting C compile features - done
+[0.120s] -- Detecting CXX compiler ABI info
+[0.159s] -- Detecting CXX compiler ABI info - done
+[0.168s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.168s] -- Detecting CXX compile features
+[0.168s] -- Detecting CXX compile features - done
+[0.174s] -- Found ament_cmake: 2.7.3 (/home/nl455/miniconda3/envs/ros_env/share/ament_cmake/cmake)
+[0.238s] -- Found Python3: /home/nl455/miniconda3/envs/ros_env/bin/python3 (found version "3.12.12") found components: Interpreter
+[0.273s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.304s] -- Found rclcpp: 29.5.3 (/home/nl455/miniconda3/envs/ros_env/share/rclcpp/cmake)
+[0.332s] -- Found rosidl_generator_c: 4.9.5 (/home/nl455/miniconda3/envs/ros_env/share/rosidl_generator_c/cmake)
+[0.342s] -- Found rosidl_generator_cpp: 4.9.5 (/home/nl455/miniconda3/envs/ros_env/share/rosidl_generator_cpp/cmake)
+[0.353s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.365s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.417s] -- Found rmw_implementation_cmake: 7.8.2 (/home/nl455/miniconda3/envs/ros_env/share/rmw_implementation_cmake/cmake)
+[0.420s] -- Found rmw_fastrtps_cpp: 9.3.3 (/home/nl455/miniconda3/envs/ros_env/share/rmw_fastrtps_cpp/cmake)
+[0.570s] -- Found OpenSSL: /home/nl455/miniconda3/envs/ros_env/lib/libcrypto.so (found version "3.6.0")
+[0.581s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.631s] -- Found rclcpp_lifecycle: 29.5.3 (/home/nl455/miniconda3/envs/ros_env/share/rclcpp_lifecycle/cmake)
+[0.651s] -- Found mocap4r2_control_msgs: 0.0.7 (/home/nl455/mocap_ws/install/mocap4r2_control_msgs/share/mocap4r2_control_msgs/cmake)
+[0.683s] [0mCMake Deprecation Warning at /home/nl455/miniconda3/envs/ros_env/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+[0.683s]   ament_target_dependencies() is deprecated.  Use target_link_libraries()
+[0.683s]   with modern CMake targets instead.  Try replacing this call with:
+[0.683s] 
+[0.683s]     target_link_libraries(mocap4r2_control PUBLIC
+[0.683s]       ${mocap4r2_control_msgs_TARGETS}
+[0.683s]       rclcpp::rclcpp
+[0.683s]       rclcpp_lifecycle::rclcpp_lifecycle
+[0.683s]     )
+[0.683s] 
+[0.683s] Call Stack (most recent call first):
+[0.683s]   CMakeLists.txt:37 (ament_target_dependencies)
+[0.683s] 
+[0.683s] [0m
+[0.683s] [0mCMake Deprecation Warning at /home/nl455/miniconda3/envs/ros_env/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+[0.683s]   ament_target_dependencies() is deprecated.  Use target_link_libraries()
+[0.683s]   with modern CMake targets instead.  Try replacing this call with:
+[0.683s] 
+[0.683s]     target_link_libraries(auxiliar_main PUBLIC
+[0.683s]       ${mocap4r2_control_msgs_TARGETS}
+[0.683s]       rclcpp::rclcpp
+[0.683s]       rclcpp_lifecycle::rclcpp_lifecycle
+[0.683s]     )
+[0.683s] 
+[0.683s] Call Stack (most recent call first):
+[0.683s]   CMakeLists.txt:40 (ament_target_dependencies)
+[0.683s] 
+[0.683s] [0m
+[0.686s] -- Found ament_lint_auto: 0.19.2 (/home/nl455/miniconda3/envs/ros_env/share/ament_lint_auto/cmake)
+[0.754s] -- Found gtest sources under '/home/nl455/miniconda3/envs/ros_env/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.755s] [0mCMake Deprecation Warning at /home/nl455/miniconda3/envs/ros_env/src/gtest_vendor/CMakeLists.txt:2 (cmake_minimum_required):
+[0.755s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.755s]   CMake.
+[0.755s] 
+[0.755s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.755s]   to tell CMake that the project requires at least <min> but has been updated
+[0.755s]   to work with policies introduced by <max> or earlier.
+[0.755s] 
+[0.755s] [0m
+[0.755s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.791s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.791s] -- Found Threads: TRUE
+[0.792s] [0mCMake Deprecation Warning at /home/nl455/miniconda3/envs/ros_env/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+[0.792s]   ament_target_dependencies() is deprecated.  Use target_link_libraries()
+[0.792s]   with modern CMake targets instead.  Try replacing this call with:
+[0.792s] 
+[0.792s]     target_link_libraries(test_control PUBLIC
+[0.792s]       ${mocap4r2_control_msgs_TARGETS}
+[0.792s]       ${std_msgs_TARGETS}
+[0.792s]       rclcpp::rclcpp
+[0.792s]       rclcpp_lifecycle::rclcpp_lifecycle
+[0.792s]     )
+[0.792s] 
+[0.792s] Call Stack (most recent call first):
+[0.792s]   test/CMakeLists.txt:3 (ament_target_dependencies)
+[0.792s] 
+[0.792s] [0m
+[0.794s] [0mCMake Deprecation Warning at /home/nl455/miniconda3/envs/ros_env/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+[0.794s]   ament_target_dependencies() is deprecated.  Use target_link_libraries()
+[0.794s]   with modern CMake targets instead.  Try replacing this call with:
+[0.794s] 
+[0.794s]     target_link_libraries(test_auxiliar PUBLIC
+[0.794s]       ${mocap4r2_control_msgs_TARGETS}
+[0.794s]       ${std_msgs_TARGETS}
+[0.794s]       rclcpp::rclcpp
+[0.794s]       rclcpp_lifecycle::rclcpp_lifecycle
+[0.794s]     )
+[0.794s] 
+[0.794s] Call Stack (most recent call first):
+[0.794s]   test/CMakeLists.txt:7 (ament_target_dependencies)
+[0.794s] 
+[0.794s] [0m
+[0.797s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.798s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.798s] -- Configured cppcheck include dirs: /home/nl455/mocap_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control/include
+[0.798s] -- Configured cppcheck exclude dirs and/or files: 
+[0.799s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.799s] -- Configured cpplint exclude dirs and/or files: 
+[0.799s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.799s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.799s] -- Added test 'lint_cmake' to check CMake code style
+[0.800s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.800s] -- Added test 'uncrustify' to check C / C++ code style
+[0.800s] -- Configured uncrustify additional arguments: 
+[0.801s] -- Added test 'xmllint' to check XML markup files
+[0.802s] -- Configuring done (0.8s)
+[0.818s] -- Generating done (0.0s)
+[0.832s] -- Build files have been written to: /home/nl455/mocap_ws/build/mocap4r2_control
+[0.842s] Invoked command in '/home/nl455/mocap_ws/build/mocap4r2_control' returned '0': AMENT_PREFIX_PATH=/home/nl455/mocap_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nl455/mocap_ws/install/mocap4r2_control_msgs:/home/nl455/miniconda3/envs/ros_env CONDA_PROMPT_MODIFIER=(ros_env) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nl455/mocap_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nl455/mocap_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /home/nl455/miniconda3/envs/ros_env/bin/cmake /home/nl455/mocap_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nl455/mocap_ws/install/mocap4r2_control
+[0.842s] Invoking command in '/home/nl455/mocap_ws/build/mocap4r2_control': AMENT_PREFIX_PATH=/home/nl455/mocap_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nl455/mocap_ws/install/mocap4r2_control_msgs:/home/nl455/miniconda3/envs/ros_env CONDA_PROMPT_MODIFIER=(ros_env) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nl455/mocap_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nl455/mocap_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /home/nl455/miniconda3/envs/ros_env/bin/cmake --build /home/nl455/mocap_ws/build/mocap4r2_control -- -j32 -l32
+[0.862s] [ 28%] [32mBuilding CXX object CMakeFiles/mocap4r2_control.dir/src/mocap4r2_control/ControllerNode.cpp.o[0m
+[0.862s] [ 28%] [32mBuilding CXX object CMakeFiles/mocap4r2_control.dir/src/mocap4r2_control/AuxiliarNode.cpp.o[0m
+[0.862s] [ 28%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[0.862s] [ 28%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[0.862s] [ 35%] [32mBuilding CXX object CMakeFiles/mocap4r2_control.dir/src/mocap4r2_control/ControlledLifecycleNode.cpp.o[0m
+[1.167s] [ 42%] [1m[32mLinking CXX static library libgtest_main.a[0m
+[1.181s] [ 42%] Built target gtest_main
+[2.587s] [ 50%] [1m[32mLinking CXX static library libgtest.a[0m
+[2.611s] [ 50%] Built target gtest
+[5.284s] [ 57%] [1m[32mLinking CXX shared library libmocap4r2_control.so[0m
+[5.339s] /usr/bin/ld: cannot find -llttng-ust: No such file or directory
+[5.339s] /usr/bin/ld: cannot find -llttng-ust-common: No such file or directory
+[5.373s] collect2: error: ld returned 1 exit status
+[5.374s] gmake[2]: *** [CMakeFiles/mocap4r2_control.dir/build.make:231: libmocap4r2_control.so] Error 1
+[5.375s] gmake[1]: *** [CMakeFiles/Makefile2:204: CMakeFiles/mocap4r2_control.dir/all] Error 2
+[5.375s] gmake: *** [Makefile:146: all] Error 2

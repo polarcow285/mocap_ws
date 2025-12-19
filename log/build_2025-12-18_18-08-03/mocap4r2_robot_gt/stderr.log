@@ -1,0 +1,101 @@
+[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+[0m
+[0mCMake Deprecation Warning at /home/nl455/miniconda3/envs/ros_env/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+  ament_target_dependencies() is deprecated.  Use target_link_libraries()
+  with modern CMake targets instead.  Try replacing this call with:
+
+    target_link_libraries(gt_component PUBLIC
+      ${geometry_msgs_TARGETS}
+      ${mocap4r2_msgs_TARGETS}
+      ${mocap4r2_robot_gt_msgs_TARGETS}
+      rclcpp::rclcpp
+      rclcpp_components::component
+      rclcpp_components::component_manager
+      tf2_geometry_msgs::tf2_geometry_msgs
+      tf2_ros::static_transform_broadcaster_node
+      tf2_ros::tf2_ros
+    )
+
+Call Stack (most recent call first):
+  CMakeLists.txt:33 (ament_target_dependencies)
+
+[0m
+[0mCMake Deprecation Warning at /home/nl455/miniconda3/envs/ros_env/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+  ament_target_dependencies() is deprecated.  Use target_link_libraries()
+  with modern CMake targets instead.  Try replacing this call with:
+
+    target_link_libraries(gt_component PUBLIC
+      ${geometry_msgs_TARGETS}
+      ${mocap4r2_msgs_TARGETS}
+      ${mocap4r2_robot_gt_msgs_TARGETS}
+      rclcpp::rclcpp
+      rclcpp_components::component
+      rclcpp_components::component_manager
+      tf2_geometry_msgs::tf2_geometry_msgs
+      tf2_ros::static_transform_broadcaster_node
+      tf2_ros::tf2_ros
+    )
+
+Call Stack (most recent call first):
+  CMakeLists.txt:37 (ament_target_dependencies)
+
+[0m
+[0mCMake Deprecation Warning at /home/nl455/miniconda3/envs/ros_env/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+  ament_target_dependencies() is deprecated.  Use target_link_libraries()
+  with modern CMake targets instead.  Try replacing this call with:
+
+    target_link_libraries(set_gt_component PUBLIC
+      ${geometry_msgs_TARGETS}
+      ${mocap4r2_msgs_TARGETS}
+      ${mocap4r2_robot_gt_msgs_TARGETS}
+      rclcpp::rclcpp
+      rclcpp_components::component
+      rclcpp_components::component_manager
+      tf2_geometry_msgs::tf2_geometry_msgs
+      tf2_ros::static_transform_broadcaster_node
+      tf2_ros::tf2_ros
+    )
+
+Call Stack (most recent call first):
+  CMakeLists.txt:41 (ament_target_dependencies)
+
+[0m
+[0mCMake Deprecation Warning at /home/nl455/miniconda3/envs/ros_env/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+  ament_target_dependencies() is deprecated.  Use target_link_libraries()
+  with modern CMake targets instead.  Try replacing this call with:
+
+    target_link_libraries(set_gt_cli PUBLIC
+      ${geometry_msgs_TARGETS}
+      ${mocap4r2_msgs_TARGETS}
+      ${mocap4r2_robot_gt_msgs_TARGETS}
+      rclcpp::rclcpp
+      rclcpp_components::component
+      rclcpp_components::component_manager
+      tf2_geometry_msgs::tf2_geometry_msgs
+      tf2_ros::static_transform_broadcaster_node
+      tf2_ros::tf2_ros
+    )
+
+Call Stack (most recent call first):
+  CMakeLists.txt:45 (ament_target_dependencies)
+
+[0m
+/usr/bin/ld: cannot find -llttng-ust: No such file or directory
+/usr/bin/ld: cannot find -llttng-ust-common: No such file or directory
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/set_gt_component.dir/build.make:240: libset_gt_component.so] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:226: CMakeFiles/set_gt_component.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+/usr/bin/ld: cannot find -llttng-ust: No such file or directory
+/usr/bin/ld: cannot find -llttng-ust-common: No such file or directory
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/gt_component.dir/build.make:240: libgt_component.so] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:162: CMakeFiles/gt_component.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

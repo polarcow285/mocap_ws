@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/nl455/mocap_ws/build/rqt_mocap4r2_control/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

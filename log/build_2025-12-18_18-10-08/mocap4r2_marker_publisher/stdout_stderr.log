@@ -1,0 +1,7 @@
+[ 50%] [1m[32mLinking CXX executable mocap4r2_marker_publisher[0m
+/usr/bin/ld: cannot find -llttng-ust: No such file or directory
+/usr/bin/ld: cannot find -llttng-ust-common: No such file or directory
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/mocap4r2_marker_publisher.dir/build.make:189: mocap4r2_marker_publisher] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:153: CMakeFiles/mocap4r2_marker_publisher.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

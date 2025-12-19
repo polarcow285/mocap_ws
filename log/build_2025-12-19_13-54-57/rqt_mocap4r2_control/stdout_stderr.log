@@ -1,0 +1,73 @@
+[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+[0m
+-- Found ament_cmake: 2.7.3 (/home/nl455/miniconda3/envs/ros_env/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 29.5.3 (/home/nl455/miniconda3/envs/ros_env/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.9.5 (/home/nl455/miniconda3/envs/ros_env/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.9.5 (/home/nl455/miniconda3/envs/ros_env/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.8.2 (/home/nl455/miniconda3/envs/ros_env/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 9.3.3 (/home/nl455/miniconda3/envs/ros_env/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found qt_gui_cpp: 2.9.1 (/home/nl455/miniconda3/envs/ros_env/share/qt_gui_cpp/cmake)
+-- Found rqt_gui_cpp: 1.9.0 (/home/nl455/miniconda3/envs/ros_env/share/rqt_gui_cpp/cmake)
+-- Found mocap4r2_control: 0.0.7 (/home/nl455/mocap_ws/install/mocap4r2_control/share/mocap4r2_control/cmake)
+-- Found sensor_msgs: 5.5.0 (/home/nl455/miniconda3/envs/ros_env/share/sensor_msgs/cmake)
+[0mCMake Deprecation Warning at /home/nl455/miniconda3/envs/ros_env/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+  ament_target_dependencies() is deprecated.  Use target_link_libraries()
+  with modern CMake targets instead.  Try replacing this call with:
+
+    target_link_libraries(rqt_mocap4r2_control PUBLIC
+      ${mocap4r2_control_msgs_TARGETS}
+      ${sensor_msgs_TARGETS}
+      qt_gui_cpp::qt_gui_cpp
+      rclcpp::rclcpp
+      rqt_gui_cpp::rqt_gui_cpp
+      sensor_msgs::sensor_msgs_library
+    )
+
+Call Stack (most recent call first):
+  CMakeLists.txt:81 (ament_target_dependencies)
+
+[0m
+-- Configuring done (0.4s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/nl455/mocap_ws/build/rqt_mocap4r2_control
+[100%] Built target rqt_mocap4r2_control
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/nl455/mocap_ws/install/rqt_mocap4r2_control/lib/rqt_mocap4r2_control/rqt_mocap4r2_control
+-- Up-to-date symlink: /home/nl455/mocap_ws/install/rqt_mocap4r2_control/include/rqt_mocap4r2_control/SystemController.hpp
+-- Up-to-date symlink: /home/nl455/mocap_ws/install/rqt_mocap4r2_control/include/rqt_mocap4r2_control/mocap4r2_control.hpp
+-- Up-to-date symlink: /home/nl455/mocap_ws/install/rqt_mocap4r2_control/include/rqt_mocap4r2_control/utils.hpp
+-- Up-to-date symlink: /home/nl455/mocap_ws/install/rqt_mocap4r2_control/share/rqt_mocap4r2_control/plugin.xml
+-- Up-to-date symlink: /home/nl455/mocap_ws/install/rqt_mocap4r2_control/share/rqt_mocap4r2_control//plugin.xml
+-- Up-to-date symlink: /home/nl455/mocap_ws/install/rqt_mocap4r2_control/share/rqt_mocap4r2_control/environment/library_path.sh
+-- Up-to-date symlink: /home/nl455/mocap_ws/install/rqt_mocap4r2_control/share/rqt_mocap4r2_control/environment/library_path.dsv
+-- Up-to-date symlink: /home/nl455/mocap_ws/install/rqt_mocap4r2_control/share/ament_index/resource_index/package_run_dependencies/rqt_mocap4r2_control
+-- Up-to-date symlink: /home/nl455/mocap_ws/install/rqt_mocap4r2_control/share/ament_index/resource_index/parent_prefix_path/rqt_mocap4r2_control
+-- Up-to-date symlink: /home/nl455/mocap_ws/install/rqt_mocap4r2_control/share/rqt_mocap4r2_control/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/nl455/mocap_ws/install/rqt_mocap4r2_control/share/rqt_mocap4r2_control/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/nl455/mocap_ws/install/rqt_mocap4r2_control/share/rqt_mocap4r2_control/environment/path.sh
+-- Up-to-date symlink: /home/nl455/mocap_ws/install/rqt_mocap4r2_control/share/rqt_mocap4r2_control/environment/path.dsv
+-- Up-to-date symlink: /home/nl455/mocap_ws/install/rqt_mocap4r2_control/share/rqt_mocap4r2_control/local_setup.bash
+-- Up-to-date symlink: /home/nl455/mocap_ws/install/rqt_mocap4r2_control/share/rqt_mocap4r2_control/local_setup.sh
+-- Up-to-date symlink: /home/nl455/mocap_ws/install/rqt_mocap4r2_control/share/rqt_mocap4r2_control/local_setup.zsh
+-- Up-to-date symlink: /home/nl455/mocap_ws/install/rqt_mocap4r2_control/share/rqt_mocap4r2_control/local_setup.dsv
+-- Symlinking: /home/nl455/mocap_ws/install/rqt_mocap4r2_control/share/rqt_mocap4r2_control/package.dsv
+-- Up-to-date symlink: /home/nl455/mocap_ws/install/rqt_mocap4r2_control/share/ament_index/resource_index/packages/rqt_mocap4r2_control
+-- Up-to-date symlink: /home/nl455/mocap_ws/install/rqt_mocap4r2_control/share/ament_index/resource_index/rqt_gui__pluginlib__plugin/rqt_mocap4r2_control
+-- Up-to-date symlink: /home/nl455/mocap_ws/install/rqt_mocap4r2_control/share/rqt_mocap4r2_control/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/nl455/mocap_ws/install/rqt_mocap4r2_control/share/rqt_mocap4r2_control/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/nl455/mocap_ws/install/rqt_mocap4r2_control/share/rqt_mocap4r2_control/cmake/rqt_mocap4r2_controlConfig.cmake
+-- Up-to-date symlink: /home/nl455/mocap_ws/install/rqt_mocap4r2_control/share/rqt_mocap4r2_control/cmake/rqt_mocap4r2_controlConfig-version.cmake
+-- Up-to-date symlink: /home/nl455/mocap_ws/install/rqt_mocap4r2_control/share/rqt_mocap4r2_control/package.xml
+-- Up-to-date: /home/nl455/mocap_ws/install/rqt_mocap4r2_control/lib/rqt_mocap4r2_control/librqt_mocap4r2_control.so

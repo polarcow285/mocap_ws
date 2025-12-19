@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/nl455/mocap_ws/src/mocap4r2/mocap4r2_robot_gt/mocap4r2_robot_gt_msgs" FILES "/home/nl455/mocap_ws/build/mocap4r2_robot_gt_msgs/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/mocap4r2_robot_gt_msgs")

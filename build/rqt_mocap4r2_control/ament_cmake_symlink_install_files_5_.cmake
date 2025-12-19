@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/nl455/mocap_ws/src/mocap4r2/mocap4r2_control/rqt_mocap4r2_control" FILES "/home/nl455/mocap_ws/build/rqt_mocap4r2_control/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/rqt_mocap4r2_control" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")

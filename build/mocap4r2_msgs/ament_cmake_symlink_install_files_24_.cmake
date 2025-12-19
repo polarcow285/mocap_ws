@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/nl455/mocap_ws/src/mocap_msgs" FILES "/home/nl455/mocap_ws/build/mocap4r2_msgs/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/mocap4r2_msgs" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")

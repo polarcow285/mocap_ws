@@ -1,0 +1,1 @@
+/home/nl455/mocap_ws/build/mocap4r2_msgs/ament_cmake_core/mocap4r2_msgsConfig-version.cmake

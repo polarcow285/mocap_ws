@@ -1,0 +1,36 @@
+[0.291s] Invoking command in '/home/nl455/mocap_ws/build/mocap4r2cli': AMENT_PREFIX_PATH=/home/nl455/mocap_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nl455/mocap_ws/install/mocap4r2_control_msgs CONDA_PROMPT_MODIFIER=(ros_env) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nl455/mocap_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nl455/mocap_ws/build/mocap4r2cli/prefix_override:/home/nl455/miniconda3/envs/ros_env/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/nl455/mocap_ws/install/mocap4r2cli/lib/python3.12/site-packages:/home/nl455/mocap_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /home/nl455/miniconda3/envs/ros_env/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/nl455/mocap_ws/build/mocap4r2cli/build --no-deps symlink_data
+[0.354s] /home/nl455/miniconda3/envs/ros_env/lib/python3.12/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[0.354s]   warnings.warn(msg)
+[0.366s] /home/nl455/miniconda3/envs/ros_env/lib/python3.12/site-packages/setuptools/dist.py:759: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+[0.366s] !!
+[0.366s] 
+[0.366s]         ********************************************************************************
+[0.366s]         Please consider removing the following classifiers in favor of a SPDX license expression:
+[0.366s] 
+[0.366s]         License :: OSI Approved :: Apache Software License
+[0.366s] 
+[0.366s]         See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+[0.366s]         ********************************************************************************
+[0.366s] 
+[0.366s] !!
+[0.366s]   self._finalize_license_expression()
+[0.398s] running develop
+[0.455s] running egg_info
+[0.461s] creating mocap4r2cli.egg-info
+[0.461s] writing mocap4r2cli.egg-info/PKG-INFO
+[0.461s] writing dependency_links to mocap4r2cli.egg-info/dependency_links.txt
+[0.461s] writing entry points to mocap4r2cli.egg-info/entry_points.txt
+[0.461s] writing requirements to mocap4r2cli.egg-info/requires.txt
+[0.461s] writing top-level names to mocap4r2cli.egg-info/top_level.txt
+[0.461s] writing manifest file 'mocap4r2cli.egg-info/SOURCES.txt'
+[0.475s] reading manifest file 'mocap4r2cli.egg-info/SOURCES.txt'
+[0.475s] writing manifest file 'mocap4r2cli.egg-info/SOURCES.txt'
+[0.482s] running build_ext
+[0.482s] Creating /home/nl455/mocap_ws/install/mocap4r2cli/lib/python3.12/site-packages/mocap4r2cli.egg-link (link to .)
+[0.482s] 
+[0.482s] Installed /home/nl455/mocap_ws/build/mocap4r2cli
+[0.482s] running symlink_data
+[0.482s] symbolically linking /home/nl455/mocap_ws/build/mocap4r2cli/package.xml -> /home/nl455/mocap_ws/install/mocap4r2cli/share/mocap4r2cli
+[0.482s] creating /home/nl455/mocap_ws/install/mocap4r2cli/share/ament_index/resource_index/packages
+[0.482s] symbolically linking /home/nl455/mocap_ws/build/mocap4r2cli/resource/mocap4r2cli -> /home/nl455/mocap_ws/install/mocap4r2cli/share/ament_index/resource_index/packages
+[0.500s] Invoked command in '/home/nl455/mocap_ws/build/mocap4r2cli' returned '0': AMENT_PREFIX_PATH=/home/nl455/mocap_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nl455/mocap_ws/install/mocap4r2_control_msgs CONDA_PROMPT_MODIFIER=(ros_env) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nl455/mocap_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nl455/mocap_ws/build/mocap4r2cli/prefix_override:/home/nl455/miniconda3/envs/ros_env/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/nl455/mocap_ws/install/mocap4r2cli/lib/python3.12/site-packages:/home/nl455/mocap_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /home/nl455/miniconda3/envs/ros_env/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/nl455/mocap_ws/build/mocap4r2cli/build --no-deps symlink_data

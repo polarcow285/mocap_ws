@@ -1,0 +1,46 @@
+[0.029s] Invoking command in '/home/nl455/mocap_ws/build/mocap4r2_control': AMENT_PREFIX_PATH=/home/nl455/mocap_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nl455/mocap_ws/install/mocap4r2_control_msgs:/home/nl455/miniconda3/envs/ros_env CONDA_PROMPT_MODIFIER=(ros_env) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nl455/mocap_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nl455/mocap_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /home/nl455/miniconda3/envs/ros_env/bin/cmake --build /home/nl455/mocap_ws/build/mocap4r2_control -- -j32 -l32
+[0.124s] [ 28%] Built target gtest_main
+[0.124s] [ 28%] Built target gtest
+[0.124s] [ 35%] [1m[32mLinking CXX shared library libmocap4r2_control.so[0m
+[0.222s] [ 57%] Built target mocap4r2_control
+[0.231s] [ 78%] [32mBuilding CXX object test/CMakeFiles/test_auxiliar.dir/test_auxiliar.cpp.o[0m
+[0.231s] [ 78%] [32mBuilding CXX object test/CMakeFiles/test_control.dir/test_control.cpp.o[0m
+[0.231s] [ 78%] [32mBuilding CXX object CMakeFiles/auxiliar_main.dir/src/auxiliar_main.cpp.o[0m
+[1.822s] [ 85%] [1m[32mLinking CXX executable auxiliar_main[0m
+[1.927s] [ 85%] Built target auxiliar_main
+[4.329s] [ 92%] [1m[32mLinking CXX executable test_auxiliar[0m
+[4.502s] [ 92%] Built target test_auxiliar
+[4.794s] [100%] [1m[32mLinking CXX executable test_control[0m
+[4.982s] [100%] Built target test_control
+[4.987s] Invoked command in '/home/nl455/mocap_ws/build/mocap4r2_control' returned '0': AMENT_PREFIX_PATH=/home/nl455/mocap_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nl455/mocap_ws/install/mocap4r2_control_msgs:/home/nl455/miniconda3/envs/ros_env CONDA_PROMPT_MODIFIER=(ros_env) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nl455/mocap_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nl455/mocap_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /home/nl455/miniconda3/envs/ros_env/bin/cmake --build /home/nl455/mocap_ws/build/mocap4r2_control -- -j32 -l32
+[4.987s] Invoking command in '/home/nl455/mocap_ws/build/mocap4r2_control': AMENT_PREFIX_PATH=/home/nl455/mocap_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nl455/mocap_ws/install/mocap4r2_control_msgs:/home/nl455/miniconda3/envs/ros_env CONDA_PROMPT_MODIFIER=(ros_env) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nl455/mocap_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nl455/mocap_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /home/nl455/miniconda3/envs/ros_env/bin/cmake --install /home/nl455/mocap_ws/build/mocap4r2_control
+[4.990s] -- Install configuration: ""
+[4.990s] -- Execute custom install script
+[4.990s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_control/include//mocap4r2_control/AuxiliarNode.hpp
+[4.994s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_control/include//mocap4r2_control/ControlledLifecycleNode.hpp
+[4.997s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_control/include//mocap4r2_control/ControllerNode.hpp
+[4.999s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_control/share/mocap4r2_control/config/config_example.yaml
+[5.002s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_control/share/mocap4r2_control/launch/auxiliar.launch.py
+[5.005s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_control/lib/libmocap4r2_control.so
+[5.007s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_control/lib/mocap4r2_control/auxiliar_main
+[5.010s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_control/share/mocap4r2_control/environment/library_path.sh
+[5.012s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_control/share/mocap4r2_control/environment/library_path.dsv
+[5.015s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_control/share/ament_index/resource_index/package_run_dependencies/mocap4r2_control
+[5.017s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_control/share/ament_index/resource_index/parent_prefix_path/mocap4r2_control
+[5.020s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_control/share/mocap4r2_control/environment/ament_prefix_path.sh
+[5.022s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_control/share/mocap4r2_control/environment/ament_prefix_path.dsv
+[5.025s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_control/share/mocap4r2_control/environment/path.sh
+[5.027s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_control/share/mocap4r2_control/environment/path.dsv
+[5.030s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_control/share/mocap4r2_control/local_setup.bash
+[5.033s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_control/share/mocap4r2_control/local_setup.sh
+[5.036s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_control/share/mocap4r2_control/local_setup.zsh
+[5.038s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_control/share/mocap4r2_control/local_setup.dsv
+[5.040s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_control/share/mocap4r2_control/package.dsv
+[5.043s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_control/share/ament_index/resource_index/packages/mocap4r2_control
+[5.045s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_control/share/mocap4r2_control/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.048s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_control/share/mocap4r2_control/cmake/ament_cmake_export_libraries-extras.cmake
+[5.050s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_control/share/mocap4r2_control/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.053s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_control/share/mocap4r2_control/cmake/mocap4r2_controlConfig.cmake
+[5.055s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_control/share/mocap4r2_control/cmake/mocap4r2_controlConfig-version.cmake
+[5.058s] -- Symlinking: /home/nl455/mocap_ws/install/mocap4r2_control/share/mocap4r2_control/package.xml
+[5.061s] Invoked command in '/home/nl455/mocap_ws/build/mocap4r2_control' returned '0': AMENT_PREFIX_PATH=/home/nl455/mocap_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nl455/mocap_ws/install/mocap4r2_control_msgs:/home/nl455/miniconda3/envs/ros_env CONDA_PROMPT_MODIFIER=(ros_env) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nl455/mocap_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nl455/mocap_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /home/nl455/miniconda3/envs/ros_env/bin/cmake --install /home/nl455/mocap_ws/build/mocap4r2_control

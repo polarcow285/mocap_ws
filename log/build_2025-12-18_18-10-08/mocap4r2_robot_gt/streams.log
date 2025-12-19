@@ -1,0 +1,15 @@
+[0.109s] Invoking command in '/home/nl455/mocap_ws/build/mocap4r2_robot_gt': AMENT_PREFIX_PATH=/home/nl455/mocap_ws/install/mocap4r2_robot_gt_msgs:/home/nl455/mocap_ws/install/mocap4r2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nl455/mocap_ws/install/mocap4r2_robot_gt_msgs:/home/nl455/mocap_ws/install/mocap4r2_msgs:/home/nl455/miniconda3/envs/ros_env CONDA_PROMPT_MODIFIER=(ros_env) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nl455/mocap_ws/install/mocap4r2_robot_gt_msgs/lib:/home/nl455/mocap_ws/install/mocap4r2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nl455/mocap_ws/install/mocap4r2_robot_gt_msgs/lib/python3.12/site-packages:/home/nl455/mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages:${PYTHONPATH} /home/nl455/miniconda3/envs/ros_env/bin/cmake --build /home/nl455/mocap_ws/build/mocap4r2_robot_gt -- -j32 -l32
+[0.133s] [ 12%] [1m[32mLinking CXX shared library libset_gt_component.so[0m
+[0.133s] [ 25%] [1m[32mLinking CXX shared library libgt_component.so[0m
+[0.153s] /usr/bin/ld: cannot find -llttng-ust: No such file or directory
+[0.153s] /usr/bin/ld: cannot find -llttng-ust-common: No such file or directory
+[0.187s] collect2: error: ld returned 1 exit status
+[0.188s] gmake[2]: *** [CMakeFiles/set_gt_component.dir/build.make:240: libset_gt_component.so] Error 1
+[0.188s] gmake[1]: *** [CMakeFiles/Makefile2:226: CMakeFiles/set_gt_component.dir/all] Error 2
+[0.188s] gmake[1]: *** Waiting for unfinished jobs....
+[0.195s] /usr/bin/ld: cannot find -llttng-ust: No such file or directory
+[0.195s] /usr/bin/ld: cannot find -llttng-ust-common: No such file or directory
+[0.251s] collect2: error: ld returned 1 exit status
+[0.252s] gmake[2]: *** [CMakeFiles/gt_component.dir/build.make:240: libgt_component.so] Error 1
+[0.252s] gmake[1]: *** [CMakeFiles/Makefile2:162: CMakeFiles/gt_component.dir/all] Error 2
+[0.253s] gmake: *** [Makefile:146: all] Error 2
