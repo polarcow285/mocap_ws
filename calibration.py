@@ -80,15 +80,11 @@ class CalibrationNode(Node):
 
          # --- VR thumb ---
         p = vr_msg.point
-        vr_thumb = np.array([p.x, p.y, p.z])
+        vr_thumb = np.array([p.x, p.y, -p.z]) # Unity uses a left handed coordinate system, so we negate the z coordinate
 
         # --- Store points ---
         self.vr_points.append(vr_thumb)
         self.mocap_points.append(mocap_thumb)
-
-        # Store transformation
-        self.R = None
-        self.t = None
         
 
     def solve_calibration(self):
@@ -134,6 +130,7 @@ class CalibrationNode(Node):
         self.R = R
         self.t = t
         self.save_transform(R, t)
+
     def save_transform(self, R, t):
         data = {
             'rotation_matrix': R.tolist(),
@@ -144,7 +141,8 @@ class CalibrationNode(Node):
         with open(path, 'w') as f:
             yaml.dump(data, f)
 
-        self.get_logger().info(f"Saved calibration to {path}")    
+        self.get_logger().info(f"Saved calibration to {path}")   
+         
     def show_plots(self):
         """Display 3D plots: raw and transformed VR points"""
         P = np.array(self.vr_points)      # Nx3
@@ -179,7 +177,7 @@ def main():
     node = CalibrationNode()
     try:
         while rclpy.ok():
-            rclpy.spin_once(node, timeout_sec=0.01)
+            rclpy.spin_once(node, timeout_sec=0.1)
     except KeyboardInterrupt:
         node.get_logger().info('Keyboard interrupt received')
     finally:
