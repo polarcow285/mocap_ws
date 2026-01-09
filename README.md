@@ -88,6 +88,11 @@ colcon build --symlink-install
 
 # Stream mocap data via ROS and visualize
 Activate the ROS environment and source installation packages.
+
+Source the workspace:
+
+```source ~/mocap_ws/install/setup.bash```
+
 Repeat for two terminal windows:
 - `cd ~/mocap_ws`
 - `conda activate ros_env` 
@@ -97,7 +102,15 @@ Launch driver node (connects to Motive server): make sure Motive multicast is en
 - In terminal 1: `ros2 launch mocap4r2_optitrack_driver optitrack2.launch.py`
 - In terminal 2: `ros2 lifecycle set /mocap4r2_optitrack_driver_node activate`
 
-To launch visualization step, in terminal 2:
+To launch visualization of markers and rigid bodies, in terminal 2:
 
 ```python3 ~/mocap_ws/plot_markers.py```
 You may need to `conda install scipy` when running visualization script.
+
+# Collect human demonstration data
+1. Launch driver nodes to connect to Motive server as described above.
+2. In the OpenTeach repository, run `python teleop.py`.
+3. Open the VR app 'KinovaBot' in the MetaQuest 2. Using your left hand, pinch your middle finger and thumb together. The border should be blue, indicating Arm + Hand mode.
+4. Ensure you are wearing two mocap markers around your wrist.
+5. Run `python tracker.py` to begin collecting human demonstration data (data collection begins immediately). Data is saved as a .npz 
+6. Run `python visualize_tracking_data.py` to visualize data.
